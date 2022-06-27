@@ -900,8 +900,8 @@
 
 // qno#03
 // var num = -4;
-// var num1 = 4;
-// document.write("The absolute value of " + num + " is " + num1);
+// var abs = Math.abs(num)
+// document.write("The absolute value of " + num + " is " + abs);
 
 // qno#04
 // var random = Math.ceil(Math.random() * 6);
