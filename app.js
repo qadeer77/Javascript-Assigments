@@ -1010,4 +1010,40 @@
 
 // qno#05
 
- 
+
+// qno#06
+// var now = new Date();
+// var mili = now.getTime();
+// var minute = mili / (1000 * 60 * 60);
+// document.write("Current Date: " + now + "<br>" + "Elapsed millisecond since January 1, 1970: " + mili + "<br>" + "Elapsed minutes since January 1, 1970: " + minute);
+
+// qno#07
+// var now = new Date();
+// var hour = now.toLocaleTimeString().toString();
+// var extract = hour.slice(7);
+// document.write("It's " + extract);
+
+// qno#08
+// var now = new Date("Dec 31 2020");
+// document.write("Lather date: " + now);
+
+// qno#09
+// var now = new Date().getTime();
+// var ramdan = new Date("Mar 22 2023").getTime();
+// var diff = ramdan - now;
+// var floor = diff / (1000 * 60 * 60 * 24);
+// var round = Math.round(floor);
+// document.write(round + " days have passsed since Ist Ramdan, 2023");
+
+// qno#10
+// var now = new Date();
+// var pass = new Date("Jan 1 2022");
+// var mili = now.getTime();
+// var millisec = pass.getTime();
+// var diff = mili - millisec;
+// var floor = Math.round(diff / (1000));
+// document.write("On reference date: " + now + "<br>" + floor + " seconds had passed since begining of 2022");
+
+// qno#11
+
+
