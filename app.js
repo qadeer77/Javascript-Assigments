@@ -936,5 +936,78 @@
 //     alert("Try again");
 // }
 
- 
+
+// chapter 31 to 34
+
+// qno#01
+// var now = new Date();
+// document.write(now);
+
+// qno#02
+// var array = ["January","Feburuary","March","April","May","June","July","August","September","October","November","December"];
+// var now = new Date();
+// var date = now.getMonth();
+// document.write("Current month: " + array[date]);
+
+// qno#03
+// var arr = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// var now = new Date();
+// var day = now.getDay();
+// document.write("Today is: " + arr[day]);
+
+// qno#04
+// var arr = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// var now = new Date();
+// var day = now.getDay();
+// if(arr[day] === "Saturday"){
+//     document.write("It's Fun Day");
+// }
+// else if(arr[day] === "Sunday"){
+//     document.write("It's Fun Day");
+// }
+// else if(arr[day] === "Monday"){
+//     document.write("Today is: " + arr[day]);
+// }
+// else if(arr[day] === "Tuesday"){
+//     document.write("Today is: " + arr[day]);
+// }
+// else if(arr[day] === "Wednesday"){
+//     document.write("Today is: " + arr[day]);
+// } 
+// else if(arr[day] === "Thursday"){
+//     document.write("Today is: " + arr[day]);
+// }
+// else if(arr[day] === "Friday"){
+//     document.write("Today is: " + arr[day]);
+// }else{
+//     document.write("Nothing");
+// }
+
+                            // OR
+// var now = new Date().toString();
+// var day = now.slice(0,3);
+// day = "Saturday,Sunday";
+// if(day === "Saturday,Sunday"){
+//     document.write("It's Fun Day");
+// }
+// else if(day === "Monday"){
+//     document.write("Today is: " + day);
+// }
+// else if(day === "Tuesday"){
+//     document.write("Today is: " + day);
+// }
+// else if(day === "Wednesday"){
+//     document.write("Today is: " + day);
+// } 
+// else if(day === "Thursday"){
+//     document.write("Today is: " + day);
+// }
+// else if(day === "Friday"){
+//     document.write("Today is: " + day);
+// }else{
+//     document.write("Nothing");
+// }
+
+// qno#05
+
  
