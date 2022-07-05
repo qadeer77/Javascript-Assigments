@@ -1009,7 +1009,14 @@
 // }
 
 // qno#05
-
+// var now = new Date();
+// var date = now.getDate();
+// if (date >= 1 && date <= 15){
+//     document.write("First Fifteen days of Month");
+// }
+// else if (date > 15 && date <= 31){
+//     document.write("Last days of the month");
+// }
 
 // qno#06
 // var now = new Date();
@@ -1045,5 +1052,29 @@
 // document.write("On reference date: " + now + "<br>" + floor + " seconds had passed since begining of 2022");
 
 // qno#11
+// var now = new Date("Jan 01, 2015 23:08:16");
+// var date = new Date("Jan 01, 2015 23:08:16");
+// var beforeHr = new Date("Jan 01, 2015 22:08:16").getTime();
+// date.setTime(beforeHr);
+// document.write("current date: " + now + "<br>" + "1 hour ago, it was " + date);  
+
+// qno#12
+// var now = new Date("Jan 01, 2015 23:08:16");
+// var date = new Date("Jan 01, 2015 23:08:16");
+// var beforeHr = new Date("Jan 01, 1915 23:08:16").getTime();
+// date.setTime(beforeHr);
+// document.write("current date: " + now + "<br>" + "100 year back, it was " + date);  
+
+// qno#13
+// var user = new Date(prompt("Enter your birth year, Jan 1 2015").toLowerCase());
+// var time = user.getTime();
+// var now = new Date().getTime();
+// var diff = now - time;
+// var round = Math.round(diff / (1000 * 60 * 60 * 24 * 365));
+// document.write("Your age is " + round + "<br>" + "Your birth year is " + user.getFullYear());
+
+// qno#14
+
+
 
 
