@@ -1074,6 +1074,17 @@
 // document.write("Your age is " + round + "<br>" + "Your birth year is " + user.getFullYear());
 
 // qno#14
+// var user = prompt("Enter your name");
+// var month = prompt("Enter your month");
+// var unit = +prompt("Number of units");
+// var charge = +prompt("Charge per unit");
+// var late = 350;
+// var net = unit * charge;
+// var gross = net + late;
+// document.write("<h1> K-Electric Bill </h1>");
+// document.write("Customer Name: " + user + "<br>" + "Month: " + month + "<br> Number of units: " + unit + "<br> Charges per units: " + charge + "<br> <br>");
+// document.write("Net Amount Payable (Within Due Date): " + net + "<br> Late payament surcharge: " + late + "<br>");
+// document.write("Gross Amount Payable (after Due Date): " + gross);
 
 
 
