@@ -168,7 +168,7 @@
 // // var buyingTicket = 5;
 // // var total_cost = movieTicicket * buyingTicket;
 // // document.write("Total cost to buy " + buyingTicket + " ticket to a movie is " + total_cost + "PKR"); 
- 
+
 // // Qno#05
 // // var number1 = 4;
 // // document.write("Table of " + number1 + "<br>");
@@ -313,7 +313,7 @@
 
 // // var nameSub3 = prompt("Enter a your subject name: ");
 // // var subMarks3 = parseInt(prompt("Enter obtained marks for this subject"));
-  
+
 // // var eachMarks = 100;
 // // var eachPercentage1 = subMarks1 / eachMarks * 100;
 // // var eachPercentage2 = subMarks2 / eachMarks * 100;
@@ -983,7 +983,7 @@
 //     document.write("Nothing");
 // }
 
-                            // OR
+// OR
 // var now = new Date().toString();
 // var day = now.slice(0,3);
 // day = "Saturday,Sunday";
@@ -1087,5 +1087,69 @@
 // document.write("Gross Amount Payable (after Due Date): " + gross);
 
 
+// chapter no 35 to 38
 
+// qno#01
+// function foo(){
+//     var now = new Date();
+//     document.write(now);
+// }
+// foo()
 
+// qno#02
+// function foo() {
+//     var user = prompt("Enter your ist name");
+//     var input = prompt("Enter your last name");
+//     document.write(user + " " + input);
+// }
+// foo();
+
+// qno#03
+// function foo() {
+//     var a = +prompt("Enter your ist num");
+//     var b = +prompt("Enter your 2nd number")
+//     return a + b;
+// }
+// document.write(foo());
+
+// qno#04
+// function foo(a,b) {
+//     return a + b;
+// }
+// document.write(foo(5,7));
+
+// qno#05
+// function squrae(a,b,c){
+//     return a + b - c;
+// }
+// document.write(squrae(5,4,3));
+
+// qno#06
+// function foo() {
+//     var num = 5;
+//     var num1 = num*4*3*2*1;
+//     document.write(num1); 
+// }
+// foo();
+
+// qno#07
+// function foo() {
+//     var user = prompt("Enter your starting number");
+//     var input = prompt("Enter your ending value");
+//     for (var i = user; i <= input; i++){
+//         document.write(i + "<br>");
+//     }
+// }
+// foo();
+
+// qno#08
+function foo() {
+    function greet() {
+
+    }
+    var user = +prompt("Base value");
+    var input = +prompt("perpendicular value");
+    var write = user + input;
+    document.write("Base value: " + user + "<br>" + "Perpendicular value: " + input + "<br>" + "Hypotenuse value: " + write);
+}
+foo()
