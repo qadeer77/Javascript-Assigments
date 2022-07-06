@@ -1052,18 +1052,20 @@
 // document.write("On reference date: " + now + "<br>" + floor + " seconds had passed since begining of 2022");
 
 // qno#11
-// var now = new Date("Jan 01, 2015 23:08:16");
-// var date = new Date("Jan 01, 2015 23:08:16");
-// var beforeHr = new Date("Jan 01, 2015 22:08:16").getTime();
-// date.setTime(beforeHr);
-// document.write("current date: " + now + "<br>" + "1 hour ago, it was " + date);  
+// var now = new Date();
+// var now1 = new Date();
+// var hour = now1.getHours();
+// now1.setHours(hour - 1);
+// document.write("Current date: " + now + "<br>");
+// document.write("1 hour ago, it was " + now1);  
 
 // qno#12
-// var now = new Date("Jan 01, 2015 23:08:16");
-// var date = new Date("Jan 01, 2015 23:08:16");
-// var beforeHr = new Date("Jan 01, 1915 23:08:16").getTime();
-// date.setTime(beforeHr);
-// document.write("current date: " + now + "<br>" + "100 year back, it was " + date);  
+// var now = new Date();
+// var now1 = new Date();
+// var year = now1.getFullYear();
+// now1.setFullYear(year - 100);
+// document.write("Current date: " + now + "<br>");
+// document.write("100 years back, it was " + now1); 
 
 // qno#13
 // var user = new Date(prompt("Enter your birth year, Jan 1 2015").toLowerCase());
@@ -1075,14 +1077,17 @@
 
 // qno#14
 // var user = prompt("Enter your name");
-// var month = prompt("Enter your month");
+// var month = ["Jnauray","Feburary","March","April","May","June","July","August","September","October","November","December".toLowerCase()];
+// var now = new Date();
+// var getMon = now.getMonth();
+// var today = month[getMon];
 // var unit = +prompt("Number of units");
 // var charge = +prompt("Charge per unit");
 // var late = 350;
 // var net = unit * charge;
 // var gross = net + late;
 // document.write("<h1> K-Electric Bill </h1>");
-// document.write("Customer Name: " + user + "<br>" + "Month: " + month + "<br> Number of units: " + unit + "<br> Charges per units: " + charge + "<br> <br>");
+// document.write("Customer Name: " + user + "<br>" + "Month: " + today + "<br> Number of units: " + unit + "<br> Charges per units: " + charge + "<br> <br>");
 // document.write("Net Amount Payable (Within Due Date): " + net + "<br> Late payament surcharge: " + late + "<br>");
 // document.write("Gross Amount Payable (after Due Date): " + gross);
 
@@ -1143,13 +1148,13 @@
 // foo();
 
 // qno#08
-function foo() {
-    function greet() {
+// function foo() {
+//     function greet() {
 
-    }
-    var user = +prompt("Base value");
-    var input = +prompt("perpendicular value");
-    var write = user + input;
-    document.write("Base value: " + user + "<br>" + "Perpendicular value: " + input + "<br>" + "Hypotenuse value: " + write);
-}
-foo()
+//     }
+//     var user = +prompt("Base value");
+//     var input = +prompt("perpendicular value");
+//     var write = user + input;
+//     document.write("Base value: " + user + "<br>" + "Perpendicular value: " + input + "<br>" + "Hypotenuse value: " + write);
+// }
+// foo()
