@@ -100,7 +100,7 @@
 // // var paragraph1 = "b) Variable must begin with a letter, $ or _. For example : $name,_name or name. <br>";
 // // var paragraph2 = "c) Variable names are case sensitive. <br>";
 // // var paragraph3 = "d) Variable names should not be JS keywords. ";
-// // document.write("<h1>" + name + "</h1>" + paragraph + paragraph1 + paragraph2 + paragraph3); 
+// // document.write("<h1>" + name + "</h1>" + paragraph + paragraph1 + paragraph2 + paragraph3);
 
 
 // // chapter no 5...........
@@ -167,7 +167,7 @@
 // // var movieTicicket = 600;
 // // var buyingTicket = 5;
 // // var total_cost = movieTicicket * buyingTicket;
-// // document.write("Total cost to buy " + buyingTicket + " ticket to a movie is " + total_cost + "PKR"); 
+// // document.write("Total cost to buy " + buyingTicket + " ticket to a movie is " + total_cost + "PKR");
 
 // // Qno#05
 // // var number1 = 4;
@@ -223,7 +223,7 @@
 // // var totalMarks = 980;
 // // var obtainedMarks = 804;
 // // var percentage = obtainedMarks * 100 / totalMarks;
-// // document.write("Total marks: " + totalMarks + "<br>" + "Obtained marks: " + obtainedMarks + "<br>" + "Percentage: " + percentage); 
+// // document.write("Total marks: " + totalMarks + "<br>" + "Obtained marks: " + obtainedMarks + "<br>" + "Percentage: " + percentage);
 
 // // Qno#09
 // //  document.write("<h1> Currency in PKR </h1>");
@@ -265,7 +265,7 @@
 // // var maximumAge = 65;
 // // var estimate_amount = 3;
 // // var result = (maximumAge - age) * estimate_amount;
-// // document.write("Favourite snack: " + snack + "<br>" + "Current age: " + age + "<br>" + "Estimated maximum age: " + maximumAge + "<br>" + "Amount of snack per day: " + estimate_amount + "<br>" + " You will need " + result + 
+// // document.write("Favourite snack: " + snack + "<br>" + "Current age: " + age + "<br>" + "Estimated maximum age: " + maximumAge + "<br>" + "Amount of snack per day: " + estimate_amount + "<br>" + " You will need " + result +
 // // snack + " to last you untill the ripe old age of " + maximumAge);
 
 
@@ -289,7 +289,7 @@
 
 
 // // Qno#2
-// // var a = 3; 
+// // var a = 3;
 // // var b = 2;
 // // var result = --a - --b + ++b + b--;
 // // document.write("a is: " + a + "<br>" + "b is: " + b + "<br>" + "results is: " + result);
@@ -698,7 +698,7 @@
 // qno#6
 // for (var i = 1; i <= 15; i++){
 //     console.log(i);
-// } 
+// }
 // for(var j = 10; j >= 1; j--){
 //     console.log(j);
 // }
@@ -706,7 +706,7 @@
 //     if(i % 2 === 0){
 //         console.log(i);
 //     }
-// } 
+// }
 // for(var i = 1; i <= 19; i++){
 //     if(i % 2 !== 0){
 //         console.log(i);
@@ -927,7 +927,7 @@
 // document.write("The weight of user is " + fixed + " Kilograms");
 
 // qno#08
-// var rando = Math.ceil(Math.random() * 10); 
+// var rando = Math.ceil(Math.random() * 10);
 // var userInput = +prompt("Enter a number between 1 and 10");
 // if (userInput === rando){
 //     alert("Congratulation the number Matched");
@@ -973,7 +973,7 @@
 // }
 // else if(arr[day] === "Wednesday"){
 //     document.write("Today is: " + arr[day]);
-// } 
+// }
 // else if(arr[day] === "Thursday"){
 //     document.write("Today is: " + arr[day]);
 // }
@@ -998,7 +998,7 @@
 // }
 // else if(day === "Wednesday"){
 //     document.write("Today is: " + day);
-// } 
+// }
 // else if(day === "Thursday"){
 //     document.write("Today is: " + day);
 // }
@@ -1057,7 +1057,7 @@
 // var hour = now1.getHours();
 // now1.setHours(hour - 1);
 // document.write("Current date: " + now + "<br>");
-// document.write("1 hour ago, it was " + now1);  
+// document.write("1 hour ago, it was " + now1);
 
 // qno#12
 // var now = new Date();
@@ -1065,7 +1065,7 @@
 // var year = now1.getFullYear();
 // now1.setFullYear(year - 100);
 // document.write("Current date: " + now + "<br>");
-// document.write("100 years back, it was " + now1); 
+// document.write("100 years back, it was " + now1);
 
 // qno#13
 // var user = new Date(prompt("Enter your birth year, Jan 1 2015").toLowerCase());
@@ -1133,7 +1133,7 @@
 // function foo() {
 //     var num = 5;
 //     var num1 = num*4*3*2*1;
-//     document.write(num1); 
+//     document.write(num1);
 // }
 // foo();
 
@@ -1153,7 +1153,7 @@
 //         var userInput = prompt("Length value");
 //         var now = prompt("Width value");
 //         var data = userInput * now;
-//         document.write("legth value: " + userInput + "<br>" + "Width value: " + now + "<br>" + "Area of square value: " + data + "<br> <br>");    
+//         document.write("legth value: " + userInput + "<br>" + "Width value: " + now + "<br>" + "Area of square value: " + data + "<br> <br>");
 //     }
 //     greet();
 //     var user = +prompt("Base value");
@@ -1173,16 +1173,54 @@
 // greet();
 
 // qno#10
-function foo(){
-    var user = prompt("Enter your palindrome value");
-    var flag = "";
-    for (var i = user.length - 1; i > 0; i--){
-        flag += user[i];
-    }
-    if (flag === user){
-        document.write(flag + " is palindrome word");
-    }else{
-        document.write("This is not palindrome word");
-    }
-}
-foo()
+// function foo(){
+//     var user = prompt("Enter your palindrome word").toLowerCase();
+//     var flag = "";
+//     for(var i = user.length - 1; i >= 0; i--){
+//         flag += user[i];
+//     }
+//     if (flag === user){
+//         document.write(flag + " Palindrome word");
+//     }else{
+//         document.write("This is not palindrome word");
+//     }
+// }
+// foo();
+
+// qno#11
+// function foo(){
+    // var str = "the quick brown fox";
+    // var str1 = str.slice(0,1).toUpperCase();
+    // var str2 = str.slice(1,3);
+    // var str3 = str.slice(4,5).toUpperCase();
+    // var str4 = str.slice(5,9);
+    // var str5 = str.slice(10,11).toUpperCase();
+    // var str6 = str.slice(11,15);
+    // var str7 = str.slice(16,17).toUpperCase();
+    // var str8 = str.slice(17,19);
+    // document.write("Example String: " + str + "<br>");
+    // document.write("Expected Output: " + str1 + str2 + " " + str3 + str4 + " " + str5 + str6 + " " + str7 + str8);
+// }
+// foo();
+
+// qno#12
+// function foo(){
+//     var str = "Web Development Tutorial";
+//     var str1 = str.slice(4,15);
+//     document.write("Example String: " + str + "<br>");
+//     document.write("Expected Output: " + str1);
+// }
+// foo();
+
+// qno#13
+
+// qno#14
+// function foo(){
+//     var radius = prompt("Radius value");
+//     var pi = 3.142;
+//     var circumference = Math.round(2 * pi * radius);
+//     var area = Math.round(pi * radius * radius);
+//     document.write("Circumference of circle is: " + circumference + "<br>");
+//     document.write("Area of circle is: " + area);
+// }
+// foo();
