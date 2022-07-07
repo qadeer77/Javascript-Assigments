@@ -1150,11 +1150,39 @@
 // qno#08
 // function foo() {
 //     function greet() {
-
+//         var userInput = prompt("Length value");
+//         var now = prompt("Width value");
+//         var data = userInput * now;
+//         document.write("legth value: " + userInput + "<br>" + "Width value: " + now + "<br>" + "Area of square value: " + data + "<br> <br>");    
 //     }
+//     greet();
 //     var user = +prompt("Base value");
 //     var input = +prompt("perpendicular value");
 //     var write = user + input;
 //     document.write("Base value: " + user + "<br>" + "Perpendicular value: " + input + "<br>" + "Hypotenuse value: " + write);
 // }
 // foo()
+
+// qno#09
+// function greet() {
+//     var userInput = prompt("Length value");
+//     var now = prompt("Width value");
+//     var data = userInput * now;
+//     document.write("legth value: " + userInput + "<br>" + "Width value: " + now + "<br>" + "Area of square value: " + data + "<br> <br>");
+// }
+// greet();
+
+// qno#10
+function foo(){
+    var user = prompt("Enter your palindrome value");
+    var flag = "";
+    for (var i = user.length - 1; i > 0; i--){
+        flag += user[i];
+    }
+    if (flag === user){
+        document.write(flag + " is palindrome word");
+    }else{
+        document.write("This is not palindrome word");
+    }
+}
+foo()
