@@ -1213,6 +1213,16 @@
 // foo();
 
 // qno#13
+// function letterOccurence (strings,character){
+//     var count = 0;
+//     for (var i = 0; i < strings.length; i++) {
+//         if (strings.charAt(i) == character){
+//             count++;
+//     }
+// }
+//   return count;
+// }
+// letterOccurence ("Abdul Qadeer","a")
 
 // qno#14
 // function foo(){
