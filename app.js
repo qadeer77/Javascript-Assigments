@@ -261,267 +261,245 @@
 // document.write("Amount of snack per day: " + amount + "<br>");
 // document.write("You will need " + total + " chocolate chip to last you until the ripe old age of " + maximumAge);
 
-// // chapter no 6...........
-// // Qno#1
+// chapter 6 to 9
 
-// // var num = 10;
-// // document.write("Results: <br> " + "The value of a is: " + num + "<br> <br>");
+// Qno#1
+// var num = 10;
+// document.write("Results: <br> " + "The value of a is: " + num + "<br> <br>");
+// var num1 = ++num;
+// document.write("The value of ++a is: " + num1 + "<br>" + "Now the value of a is: " + num1 + "<br> <br>");
+// var num2 = num1++;
+// document.write("The value of a++ is: " + num2 + "<br>" + "Now the value of a is: " + num1 + "<br> <br>");
+// var num3 = --num1;
+// document.write("The value of --a is: " + num3 + "<br>" + "Now the value of a is: " + num3 + "<br> <br>");
+// var num4 = num3--;
+// document.write("The value of a-- is: " + num4 + "<br>" + "Now the value of a is: " + num3);
 
-// // var num1 = ++num;
-// // document.write("The value of ++a is: " + num1 + "<br>" + "Now the value of a is: " + num1 + "<br> <br>");
+// Qno#2
+// var a = 3;
+// var b = 2;
+// var result = --a - --b + ++b + b--;
+// document.write("a is: " + a + "<br>" + "b is: " + b + "<br>" + "results is: " + result);
 
-// // var num2 = num1++;
-// // document.write("The value of a++ is: " + num2 + "<br>" + "Now the value of a is: " + num1 + "<br> <br>");
+// Qno#3
+// var name = prompt("Enter your name");
+// document.write("Welcome to " + name);
 
-// // var num3 = --num1;
-// // document.write("The value of --a is: " + num3 + "<br>" + "Now the value of a is: " + num3 + "<br> <br>");
+// Qno#4
+// var number = prompt("Enter your number");
+// var result = number * 5;
+// document.write("Multliplication by " + result);
 
-// // var num4 = num3--;
-// // document.write("The value of a-- is: " + num4 + "<br>" + "Now the value of a is: " + num3);
-
-
-// // Qno#2
-// // var a = 3;
-// // var b = 2;
-// // var result = --a - --b + ++b + b--;
-// // document.write("a is: " + a + "<br>" + "b is: " + b + "<br>" + "results is: " + result);
-
-// // Qno#3
-// // var name = prompt("Enter your name");
-// // document.write("Welcome to " + name);
-
-// // // Qno#4
-// // var number = prompt("Enter your number");
-// // var result = number * 5;
-// // document.write("Multliplication by " + result);
-
-// // Qno#5
-// // var nameSub1 = prompt("Enter a your subject name: ");
-// // var subMarks1 = parseInt(prompt("Enter obtained marks for this subject"));
-
-// // var nameSub2 = prompt("Enter a your subject name: ");
-// // var subMarks2 = parseInt(prompt("Enter obtained marks for this subject"));
-
-
-// // var nameSub3 = prompt("Enter a your subject name: ");
-// // var subMarks3 = parseInt(prompt("Enter obtained marks for this subject"));
-
-// // var eachMarks = 100;
-// // var eachPercentage1 = subMarks1 / eachMarks * 100;
-// // var eachPercentage2 = subMarks2 / eachMarks * 100;
-// // var eachPercentage3 = subMarks3 / eachMarks * 100;
-
-// // var totalMarksStd = 300;
-// // var obtainedMarks = subMarks1 + subMarks2 + subMarks3;
-// // var percentage = obtainedMarks / totalMarksStd * 100;
-
-// // document.write("<table> <tr> <th> Subject </th> <th> Total Marks </th> <th> Obtained marks </th> <th> Percentage </th> </tr> <tr> <td>" + nameSub1 + "</td> <td>" + eachMarks + "</td> <td>" + subMarks1 + "</td> <td>" + eachPercentage1 + "</tr> <tr> <td>" + nameSub2 + "</td> <td>" + eachMarks + "</td> <td>" + subMarks2 + "</td> <td>" + eachPercentage2 + "</tr> <tr> <td>" + nameSub3 + "</td> <td>" + eachMarks + "</td> <td>" + subMarks3 + "</td> <td>" + eachPercentage3 + "</tr> <tr> <td> </td> <td>" + totalMarksStd + "</td> <td>" + obtainedMarks + "</td> <td>" + percentage + "</td>");
-
+// Qno#5
+// var nameSub1 = prompt("Enter a your subject name: ");
+// var subMarks1 = parseInt(prompt("Enter obtained marks for this subject"));
+// var nameSub2 = prompt("Enter a your subject name: ");
+// var subMarks2 = parseInt(prompt("Enter obtained marks for this subject"));
+// var nameSub3 = prompt("Enter a your subject name: ");
+// var subMarks3 = parseInt(prompt("Enter obtained marks for this subject"));
+// var eachMarks = 100;
+// var eachPercentage1 = subMarks1 / eachMarks * 100;
+// var eachPercentage2 = subMarks2 / eachMarks * 100;
+// var eachPercentage3 = subMarks3 / eachMarks * 100;
+// var totalMarksStd = 300;
+// var obtainedMarks = subMarks1 + subMarks2 + subMarks3;
+// var percentage = obtainedMarks / totalMarksStd * 100;
+// document.write("<table> <tr> <th> Subject </th> <th> Total Marks </th> <th> Obtained marks </th> <th> Percentage </th> </tr> <tr> <td>" + nameSub1 + "</td> <td>" + eachMarks + "</td> <td>" + subMarks1 + "</td> <td>" + eachPercentage1 + "</tr> <tr> <td>" + nameSub2 + "</td> <td>" + eachMarks + "</td> <td>" + subMarks2 + "</td> <td>" + eachPercentage2 + "</tr> <tr> <td>" + nameSub3 + "</td> <td>" + eachMarks + "</td> <td>" + subMarks3 + "</td> <td>" + eachPercentage3 + "</tr> <tr> <td> </td> <td>" + totalMarksStd + "</td> <td>" + obtainedMarks + "</td> <td>" + percentage + "</td>");
 
 // chapter 9 to 11
 
-// // qno1
-// var city = prompt("Enter your city");
+// qno#01
+// var city = prompt("Enter your city name").toLowerCase();
 // if (city === "karachi") {
-//     console.log("Welcome to city of light");
-// }else{
-//     console.log("Plz enter karachi city");
+//     document.write("Welcome to city light");
+// }else {
+//     document.write("Welcome to " + city);
 // }
 
-// // qno2
-// var gender = prompt("Enter your gender");
-// if(gender === "male"){
-//     console.log("Good morning sir");
+// qno#02
+// var male = prompt("Enter your gender").toLowerCase();
+// if (male === "male") {
+//     document.write("Good Morning Sir");
+// }else {
+//     document.write("Good Morning Ma'am");
 // }
-// else if(gender === "female"){
-//     console.log("Good morning mam");
+
+// qno#03
+// var color = prompt("Show your traffic signal color").toLowerCase();
+// if (color === "red") {
+//     document.write("Must Stop");
+// }
+// else if (color === "yellow") {
+//     document.write("Ready to Move");
+// }
+// else if (color === "green") {
+//     document.write("Move Now");
 // }
 
-// // qno3
-// var red = prompt("Enter your color");
-// var yellow = prompt("Enter your color");
-// var green = prompt("Enter your color");
-
-// document.write("<table> <tr> <th> Signal color </th> <th> Message </th> </tr> <tr> <td>" + red + "</td> <td> Must stop </td> </tr> <tr> <td>" + yellow + "</td> <td> Ready to move </td> </tr> <tr> <td>" + green + "</td> <td> Move now </td> </tr> </table" );
-
-// // qno4
-// var fuel = prompt("Enter your fuel litre");
+// qno#04
+// var fuel = prompt("Enter your fuel litre").toLowerCase();
 // if (fuel < 0.25) {
-//     console.log("Plz refill the fuel in your car");
+//     document.write("Plz refill the fuel in your car");
 // }else{
-//     console.log("plz go to petrol pump");
+//     document.write("Enjoying your drive");
 // }
 
-// // qno5
+// qno#05
 // var a = 4;
 // if (++a === 5){
-// alert("given condition for variable a is true");
+// document.write("given condition for variable a is true <br>");
 // }
-
 // var b = 82;
 // if (b++ === 83){
-// console.log("given condition for variable b is true");
+// document.write("given condition for variable b is true <br>");
 // }else{
-//     console.log("false")
+//    document.write("false <br>")
 // }
-
 // var c = 12;
 // if (c++ === 13){
-// console.log("condition 1 is true");
+// document.write("condition 1 is true <br>");
 // }else{
-//     console.log("false")
+//     document.write("false <br>")
 // }
-
 // if (c === 13){
-// alert("condition 2 is true"); .......true
+// document.write("condition 2 is true <br>");
 // }
-
-// if (++c < 14){
-// alert("condition 3 is true");
+// else if(++c < 14){
+// document.write("condition 3 is true <br>");
 // }
-
-// if(c === 14){
-// alert("condition 4 is true");
+// else if(c === 14){
+// document.write("condition 4 is true <br>");
 // }
-
 // var materialCost = 20000;
 // var laborCost = 2000;
 // var totalCost = materialCost + laborCost;
-
 // if (totalCost === laborCost + materialCost){
-// alert("The cost equals");
+// document.write("The cost equals <br>");
 // }
-
-// if (true){
-// alert("True");
+// else if (true){
+// document.write("True <br>");
 // }
-
-// if (false){
-// alert("False");
+// else if (false){
+// document.write("False <br>");
 // }
-
 // if("car" < "cat"){
-// alert("car is smaller than cat");
+// document.write("car is smaller than cat");
 // }
 
-// // qno6
-// var sub_1 = +prompt("Enter obtained marks for sub-1");
-// var sub_2 = +prompt("Enter obtained marks for sub2");
-// var sub_3 = +prompt("Enter obtained marks for sub3");
-// var total_marks = +prompt("Enter total marks for all subject");
-
-// var obtainer_marks = sub_1 + sub_2 + sub_3;
-// var percentage = obtainer_marks * 100 / total_marks;
-
-// if(percentage >= 80) {
-//     document.write(
-//         "<h1> Marks sheet </h1>  <h3> Total marks : " + total_marks + "</h3>  <h3> Marks obtained : " + obtainer_marks + "</h3>  <h3> Percentage : " + percentage + "</h3>  <h3> Grade : A-one </h3>  <h3> Remarks : Excellent </h3>"
-//     )
+// qno#06
+// document.write("<h1> Marks Sheet </h1>");
+// var sub1 = +prompt("Enter your ist sub obtained mark");
+// var sub2 = +prompt("Enter your 2nd sub obtained mark");
+// var sub3 = +prompt("Enter your 3rd sub obtained mark");
+// var totalMarks = +prompt("Enter your total marks for all subjects");
+// var obtainedMarks = sub1 + sub2 + sub3;
+// var percentage = obtainedMarks * 100 / totalMarks;
+// if (percentage >= 80) {
+//     document.write("Total marks: " + totalMarks + "<br>");
+//     document.write("Obtained marks: " + obtainedMarks + "<br>");
+//     document.write("Percentage: " + percentage + "<br>");
+//     document.write("Grade: " + "A-one" + "<br>" + "Remarks: " + "Excellent");
 // }
-
-// else if(percentage >= 70) {
-//     document.write(
-//         "<h1> Marks sheet </h1>  <h3> Total marks : " + total_marks + "</h3>  <h3> Marks obtained : " + obtainer_marks + "</h3>  <h3> Percentage : " + percentage + "</h3>  <h3> Grade : A </h3>  <h3> Remarks : Good </h3>"
-//     )
+// else if (percentage >= 70) {
+//     document.write("Total marks: " + totalMarks + "<br>");
+//     document.write("Obtained marks: " + obtainedMarks + "<br>");
+//     document.write("Percentage: " + percentage + "<br>");
+//     document.write("Grade: " + "A" + "<br>" + "Remarks: " + "Good");
 // }
-
-
-// else if(percentage >= 60) {
-//     document.write(
-//         "<h1> Marks sheet </h1>  <h3> Total marks : " + total_marks + "</h3>  <h3> Marks obtained : " + obtainer_marks + "</h3>  <h3> Percentage : " + percentage + "</h3>  <h3> Grade : B </h3>  <h3> Remarks : You need to improve </h3>"
-//     )
-// }
-
-// else if(percentage < 60) {
-//     document.write(
-//         "<h1> Marks sheet </h1>  <h3> Total marks : " + total_marks + "</h3>  <h3> Marks obtained : " + obtainer_marks + "</h3>  <h3> Percentage : " + percentage + "</h3>  <h3> Grade : Fail </h3>  <h3> Remarks : Soory </h3>"
-//     )
-// }
-
-// // qno7
-// var num_1 = +prompt("Enter your number");
-// var num_2 = 2;
-
-// if(num_1 === num_2){
-//     console.log("Bingo!Correct answer");
-// }
-// else if(num_1 === ++num_2){
-//     console.log("close enough to correct answer");
+// else if (percentage >= 60) {
+//     document.write("Total marks: " + totalMarks + "<br>");
+//     document.write("Obtained marks: " + obtainedMarks + "<br>");
+//     document.write("Percentage: " + percentage + "<br>");
+//     document.write("Grade: " + "B" + "<br>" + "Remarks: " + "You need to improve");
 // }else{
-//     console.log("Your answer is wrong");
+//     document.write("Total marks: " + totalMarks + "<br>");
+//     document.write("Obtained marks: " + obtainedMarks + "<br>");
+//     document.write("Percentage: " + percentage + "<br>");
+//     document.write("Grade: " + "Fail" + "<br>" + "Remarks: " + "Sorry");
 // }
 
-// // qno8
-// var num = +prompt("Enter your number");
+// qno#07
+// var num1 = +prompt("Enter your number");
+// var num2 = 2;
+// if(num1 === num2){
+//     document.write("Bingo!Correct answer");
+// }
+// else if(num1 === ++num2){
+//     document.write("close enough to correct answer");
+// }else{
+//     document.write("Your answer is wrong");
+// }
+
+// qno#08
+// var num = prompt("Enter your number");
 // if(num % 3 === 0){
-//     console.log("your number is divisible by 3");
+//     document.write("your number is divisible by 3");
 // }else{
-//     console.log("your number is not divisible by 3");
+//     document.write("your number is not divisible by 3");
 // }
 
-// // qno9
-// var num = +prompt("Enter your number");
+// qno#09
+// var num = prompt("Enter your number");
 // if (num % 2 === 0){
-//     console.log("Your number is even");
+//     document.write("Your number is even");
 // }
 // else if (num % 2 !== 0){
-//     console.log("Your number is odd");
+//     document.write("Your number is odd");
 // }
 
-// // qno10
-// var temperature = +prompt("Enter your temperature");
+// qno#10
+// var temperature = prompt("Enter your temperature");
 // if (temperature > 40){
-//     console.log("It is to hot outside");
+//     document.write("It is to hot outside");
 // }
 // else if (temperature > 30){
-//     console.log("The whether today is normal");
+//     document.write("The whether today is normal");
 // }
 // else if (temperature > 20){
-//     console.log("Today's whether is cool");
+//     document.write("Today's whether is cool");
 // }
 // else if (temperature > 10){
-//     console.log("OMG! Today's whehther is so cool");
+//     document.write("OMG! Today's whehther is so cool");
+// }else{
+//     document.write("Today wheter is totaly cold just like kashmir")
 // }
 
-// // qno11
+// qno#11
 // var num1 = +prompt("Enter your ist number");
 // var num2 = +prompt("Enter your 2nd number");
 // var opt = prompt("Enter your opt , + - * / %");
 // var result;
-
 // if(opt === "+") {
 //     result = num1 + num2
 // }
-
 // else if(opt === "-") {
 //     result = num1 - num2
 // }
-
 // else if(opt === "*") {
 //     result = num1 * num2
 // }
-
 // else if(opt === "/") {
 //     result = num1 / num2
 // }
-
 // else if(opt === "%") {
 //     result = num1 % num2
 // }
-
-// console.log(result);
-
+// document.write(result);
 
 
 // chapter 12 to 13
 
-// qno#01
-// var num = +prompt("Enter you number or string")
-// if (num === 65) {
-//     console.log("A = 65")
-// }else{
-//     console.log("a = 97")
-// }
+// qno#1
+var num = prompt("Enter your Ascii code value")
+var array = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","0","1","2","3","4","5","6","7","8","9"];
+var store;
+for (var i = 0; i < array.length; i++){
+    if (array[i] === array[0]){
+        store = array[i].charCodeAt(array[0]);
+    }
+    else if(array)
+}
+
 
 // qno#02
 // var num1 = 12;
