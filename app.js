@@ -1,273 +1,265 @@
-// // Chapter 1 alert
+// // Chapter 1 
 
-// // Task#01
+// qno#01
+// alert("Welcome to my website");
+
+// qno#02
 // alert("Error! please enter a valid password");
 
-// // Task#02
+// qno#03
 // alert("Welcome to JS land... \n Happy Coding!");
 
-// // Task#03
+// qno#04
 // alert("Welcome to JS land...");
 // alert("Happy Coding! \n Prevent this page from creating additional dialogs.");
 
-// // Task#04
+// qno#05
 // alert("Hello... I can runJS through my web broowser's console");
 
+// qno#06
+// alert("Hello i am abdul qadeer");
 
 
-// // Chapter 02 Variables for Strings
+// Chapter 02
 
+// qno#01
+// var userName;
 
-// // Task#01
-// var name = "Abdul Qadeer";
-// alert(name);
+// qno#02
+// var myName = "Abdul qadeer";
 
-// // Task#02
-// var age = "21 years old";
-// alert(age);
+// qno#03
+// var message = "Hello World";
+// alert(message);
 
-// // Task#03
+// qno#04
+// var name = "Abdul qadeer";
+// var year = "21 years old";
 // var skill = "Certified Moblie Application Development";
+// alert(name);
+// alert(year);
 // alert(skill);
 
-// // Task#04
+// qno#05
 // var food = "PIZZA\nPIZZ\nPIZ\nPI\nP";
 // alert(food);
 
-// // Task#05
+// qno#06
 // var email = "My email address is qadeershiza22@gmail.com";
 // alert(email);
 
-// // Task#06
+// qno#07
 // var book = "I am trying to learn from the Book A smarter way to learn JavaScript";
 // alert(book);
 
-// // Task#07
+// qno#08
 // document.write("Yah! I can write HTML content through JavaScript");
 
-// // Task#08
+// qno#09
 // var end = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
 // alert(end);
 
 
-// chapter no 3...........
+// chapter no3
 
-// // Qno#01
-// // var age = 15
-// // alert ("I am " + age + " years old");
+// Qno#01
+// var age = 15
+// alert ("I am " + age + " years old");
 
-// // Qno#02
-// // var visits = 14;
-// // alert ("You have vsited this site " + visits + " times.");
+// Qno#02
+// var visits = 14;
+// alert ("You have vsited this site " + visits + " times.");
 
-// // Qno#03
-// // var birth_year = 2001;
-// // document.write(" My birth year is "+ "" + birth_year + "<br>" + "Data type of my declared variable is " + typeof(birth_year));
+// Qno#03
+// var birth_year = 2001;
+// document.write(" My birth year is "+ "" + birth_year + "<br>" + "Data type of my declared variable is " + typeof(birth_year));
 
-// // Qno#03
-// // var name = "Abdul Qadeer";
-// // var product_title = " orderd 1 headphone";
-// // var quantity = " on qadeer store";
-// // document.write(name + product_title + quantity);
-
-
-// // chapter no 4...........
-// // // Qno#01
-// // function variableDeclarion() {
-// // var name,fatherName,age;
-// // }
-
-// // Qno#02
-// // function variable_declaration() {
-//     // llegal Variables
-//     // var my_age = 21;
-//     // var myAge = 21;
-//     // var myage = 21;
-//     // var $my_age = 21;
-//     // var _my_age = 21;
-
-//     // Illegal Variables
-//     // var my-age = 21;
-//     // var 123 myage = 21;
-//     // var £my age = 21;
-//     // var my age = 21;
-//     // var @ my age = 21;
-// // }
-
-// // Qno#03
-// // var name = "Rules for naming JS variables";
-// // var paragraph = "a) Variable names can only contain number,$,_. and letter For example : $my_1stVariable. <br>";
-// // var paragraph1 = "b) Variable must begin with a letter, $ or _. For example : $name,_name or name. <br>";
-// // var paragraph2 = "c) Variable names are case sensitive. <br>";
-// // var paragraph3 = "d) Variable names should not be JS keywords. ";
-// // document.write("<h1>" + name + "</h1>" + paragraph + paragraph1 + paragraph2 + paragraph3);
+// Qno#04
+// var name = "Abdul Qadeer";
+// var product_title = " orderd 1 headphone";
+// var quantity = " on qadeer store";
+// document.write(name + product_title + quantity);
 
 
-// // chapter no 5...........
-// // Qno#01
+// chapter no4
 
-// // addition
+// Qno#01
+// function variableDeclarion() {
+// var name,fatherName,age;
+// }
 
-// // var num1 = 25;
-// // var num2 = 25;
-// // var num3 = num1 + num2;
-// // document.write("sum of " + num1 + " and " + num2 + " is " + num3);
+// Qno#02
+// function variable_declaration() {
 
-// // Qno#02
+// llegal Variables
+// var my_age = 21;
+// var myAge = 21;
+// var myage = 21;
+// var $my_age = 21;
+// var _my_age = 21;
 
-// // subtraction
+// Illegal Variables
+// var my-age = 21;
+// var 123 myage = 21;
+// var £my age = 21;
+// var my age = 21;
+// var @ my age = 21;
+// }
 
-// // var num1 = 35;
-// // var num2 = 15;
-// // var num3 = num1 - num2;
-// // document.write("sub of " + num1 + " and " + num2 + " is " + num3);
-
-// // multliplication
-
-// // var num1 = 25;
-// // var num2 = 35;
-// // var num3 = num1 * num2;
-// // document.write("multliplication of " + num1 + " and " + num2 + " is " + num3);
-
-// // division
-
-// // var num1 = 10;
-// // var num2 = 2;
-// // var num3 = num1 / num2;
-// // document.write("div of " + num1 + " and " + num2 + " is " + num3);
-
-// // modulas
-// // var num1 = 112;
-// // var num2 = 10;
-// // var num3 = num1 % num2;
-// // document.write("remainder of " + num1 + " and " + num2 + " is " + num3);
-
-// // Qno#03
-// // var number1;
-// // document.write("Value after variable declarion is:" + number1 + "<br>");
-
-// // number1 = 5;
-// // document.write("Value after declaration is:" + number1 + "<br>");
-
-// // number1++;
-// // document.write("initial value:" + number1 + "<br>");
-
-// // number1 = number1 + 7;
-// // document.write("Value after addition is:" + number1 + "<br>");
-
-// // number1--;
-// // document.write("value after decrement is:" + number1 + "<br>");
-
-// // number1 = number1 % 3;
-// // document.write("The remainder is:" + number1 + "<br>");
+// Qno#03
+// var name = "Rules for naming JS variables";
+// var paragraph = "a) Variable names can only contain number,$,_. and letter For example : $my_1stVariable. <br>";
+// var paragraph1 = "b) Variable must begin with a letter, $ or _. For example : $name,_name or name. <br>";
+// var paragraph2 = "c) Variable names are case sensitive. <br>";
+// var paragraph3 = "d) Variable names should not be JS keywords. ";
+// document.write("<h1>" + name + "</h1>" + paragraph + paragraph1 + paragraph2 + paragraph3);
 
 
+// chapter no 5
 
-// // Qno#04
-// // var movieTicicket = 600;
-// // var buyingTicket = 5;
-// // var total_cost = movieTicicket * buyingTicket;
-// // document.write("Total cost to buy " + buyingTicket + " ticket to a movie is " + total_cost + "PKR");
+// Qno#01
+// var num1 = 25;
+// var num2 = 25;
+// var num3 = num1 + num2;
+// document.write("sum of " + num1 + " and " + num2 + " is " + num3);
 
-// // Qno#05
-// // var number1 = 4;
-// // document.write("Table of " + number1 + "<br>");
+// Qno#02
+// subtraction
+// var num1 = 35;
+// var num2 = 15;
+// var num3 = num1 - num2;
+// document.write("sub of " + num1 + " and " + num2 + " is " + num3);
 
-// // var num2 = number1 * 1 + "<br>";
-// // var num3 = number1 * 2 + "<br>";
-// // var num4 = number1 * 3 + "<br>";
-// // var num5 = number1 * 4 + "<br>";
-// // var num6 = number1 * 5 + "<br>";
-// // var num7 = number1 * 6 + "<br>";
-// // var num8 = number1 * 7 + "<br>";
-// // var num9 = number1 * 8 + "<br>";
-// // var num10 = number1 * 9 + "<br>";
-// // var num11 = number1 * 10 + "<br>";
-// // document.write("4*1=" + num2 + "4*2=" + num3 + "4*3=" + num4 + "4*4=" + num5 + "4*5=" + num6 + "4*6=" + num7 + "4*7=" + num8 + "4*8=" + num9 + "4*9=" + num10 + "4*10=" + num11);
+// multliplication
+// var num1 = 25;
+// var num2 = 35;
+// var num3 = num1 * num2;
+// document.write("multliplication of " + num1 + " and " + num2 + " is " + num3);
 
-// // Qno#06
-// // var celsius = 25;
-// // var farenheit = 70;
+// division
+// var num1 = 10;
+// var num2 = 2;
+// var num3 = num1 / num2;
+// document.write("div of " + num1 + " and " + num2 + " is " + num3);
 
-// // c=(farenheit -32)*5/9;
-// // f=(celsius*9/5)+32;
+// modulas
+// var num1 = 112;
+// var num2 = 10;
+// var num3 = num1 % num2;
+// document.write("remainder of " + num1 + " and " + num2 + " is " + num3);
 
-// // document.write(celsius + "<sup>o</sup>C is " + f + "<sup>o</sup>F <br>");
-// // document.write(farenheit + "<sup>o</sup>F is " + c + "<sup>o</sup>C");
+// Qno#03
+// var number1;
+// document.write("Value after variable declarion is:" + number1 + "<br>");
+// number1 = 5;
+// document.write("Value after declaration is:" + number1 + "<br>");
+// number1++;
+// document.write("initial value:" + number1 + "<br>");
+// number1 = number1 + 7;
+// document.write("Value after addition is:" + number1 + "<br>");
+// number1--;
+// document.write("value after decrement is:" + number1 + "<br>");
+// number1 = number1 % 3;
+// document.write("The remainder is:" + number1 + "<br>");
 
-// // Qno#07
-// // document.write("<h1> Shopping Cart </h1>");
+// Qno#04
+// var movieTicicket = 600;
+// var buyingTicket = 5;
+// var total_cost = movieTicicket * buyingTicket;
+// document.write("Total cost to buy " + buyingTicket + " ticket to a movie is " + total_cost + "PKR");
 
-// // var item1 = 650;
-// // document.write("Price of item 1 is " + item1 + "<br>");
+// Qno#05
+// var number1 = 4;
+// document.write("Table of " + number1 + "<br>");
+// var num2 = number1 * 1 + "<br>";
+// var num3 = number1 * 2 + "<br>";
+// var num4 = number1 * 3 + "<br>";
+// var num5 = number1 * 4 + "<br>";
+// var num6 = number1 * 5 + "<br>";
+// var num7 = number1 * 6 + "<br>";
+// var num8 = number1 * 7 + "<br>";
+// var num9 = number1 * 8 + "<br>";
+// var num10 = number1 * 9 + "<br>";
+// var num11 = number1 * 10 + "<br>";
+// document.write("4*1=" + num2 + "4*2=" + num3 + "4*3=" + num4 + "4*4=" + num5 + "4*5=" + num6 + "4*6=" + num7 + "4*7=" + num8 + "4*8=" + num9 + "4*9=" + num10 + "4*10=" + num11);
 
-// // var quantity_of_item1 = 3 * item1;
-// // document.write("Quantity of item 1 is 3 <br>");
+// Qno#06
+// var celsius = 25;
+// var farenheit = 70;
+// c=(farenheit -32)*5/9;
+// f=(celsius*9/5)+32;
+// document.write(celsius + "<sup>o</sup>C is " + f + "<sup>o</sup>F <br>");
+// document.write(farenheit + "<sup>o</sup>F is " + c + "<sup>o</sup>C");
 
-// // var item2 = 100;
-// // document.write("Price of item 2 is " + item2 + "<br>");
+// Qno#07
+// document.write("<h1> Shopping Cart </h1>");
+// var item1 = 650;
+// var quantityOfItem1 = 3;
+// var multiplyItem1 = item1 * quantityOfItem1; 
+// var item2 = 100;
+// var quantityOfItem2 = 7;
+// var multiplyItem2 = item2 * quantityOfItem2;
+// var shippingCharges = 100;
+// var total = multiplyItem1 + multiplyItem2 + shippingCharges;
+// document.write("Price of item 1 is " + item1 + "<br>");
+// document.write("Quattiy of item 1 is " + quantityOfItem1 + "<br>");
+// document.write("Price of item 2 is " + item2 + "<br>");
+// document.write("Quattiy of item 2 is " + quantityOfItem2 + "<br>");
+// document.write("Shipping Charges " + shippingCharges + "<br> <br>");
+// document.write("Total cost of your order is " + total);
 
-// // var quantity_of_item1 = 7 * item2;
-// // document.write("Quantity of item 2 is 7 <br>");
+// Qno#08
+// document.write("<h1> Marks Sheet </h1>");
+// var totalMarks = 980;
+// var obtainedMarks = 804;
+// var percentage = obtainedMarks * 100 / totalMarks;
+// document.write("Total marks: " + totalMarks + "<br>" + "Obtained marks: " + obtainedMarks + "<br>" + "Percentage: " + percentage);
 
-// // var shippingCharges = 100;
-// // document.write("Shipping Charges " + shippingCharges + "<br>");
+// Qno#09
+// document.write("<h1> Currency in PKR </h1>");
+// var us_dollar = 10;
+// var total_amount_of_us_dollar = 104.80 * us_dollar;
+// var saudi_riyal = 25;
+// var total_amount_of_saudi_riyal = 28 * saudi_riyal;
+// var total_currency_of_pkr = total_amount_of_us_dollar + total_amount_of_saudi_riyal;
+// document.write("Total currency in PKR: " + total_currency_of_pkr);
 
-// // var totalBill = item1 * 3 + item2 * 7 + shippingCharges;
+// Qno#10
+// var num1 = 5;
+// var num2 = num1 + 5 * 10 / 2;
+// alert(num2);
 
-// // document.write("Total cost of your order is " + totalBill);
+// Qno#11
+// document.write("<h1> Age Calculator </h1>");
+// var current_year = 2022;
+// var birthYear = 2001;
+// var minus = current_year - birthYear;
+// document.write("Current year: " + current_year + "<br>");
+// document.write("Birth year: " + birthYear + "<br>");
+// document.write("Your age is: " + minus);
 
-// // Qno#08
-// // document.write("<h1> Marks Sheet </h1>");
+// Qno#12
+// document.write("<h1> The Geometrizer </h1>");
+// var radius = 20;
+// var pi = 3.142;
+// var circumference_of_circle = 2 * pi * radius;
+// var area = pi * radius * radius;
+// document.write("Radius of circle: " + radius + "<br>");
+// document.write("The circumference is: " + circumference_of_circle + "<br>");
+// document.write("The area is: " + area);
 
-// // var totalMarks = 980;
-// // var obtainedMarks = 804;
-// // var percentage = obtainedMarks * 100 / totalMarks;
-// // document.write("Total marks: " + totalMarks + "<br>" + "Obtained marks: " + obtainedMarks + "<br>" + "Percentage: " + percentage);
-
-// // Qno#09
-// //  document.write("<h1> Currency in PKR </h1>");
-
-// //  var us_dollar = 10;
-// //  var total_amount_of_us_dollar = 104.80 * us_dollar;
-// //  var saudi_riyal = 25;
-// //  var total_amount_of_saudi_riyal = 28 * saudi_riyal;
-// //  var total_currency_of_pkr = total_amount_of_us_dollar + total_amount_of_saudi_riyal;
-// //  document.write("Total currency in PKR: " + total_currency_of_pkr);
-
-// // // Qno#10
-// // var num1 = 5;
-// // var num2 = num1 + 5 * 10 / 2;
-// // alert(num2);
-
-// // // Qno#11
-
-// // document.write("<h1> Age Calculator </h1>");
-// // var current_year = 2022;
-// // var birthYear = 2001;
-// // var age = 21;
-// // document.write("Current year: " + current_year + "<br>" + "Birth year: " + birthYear + "<br>" + "Your Age is: " + age);
-
-// // // Qno#12
-// // document.write("<h1> The Geometrizer </h1>");
-
-// // var radius = 20;
-// // var pi = 3.142;
-// // var circumference_of_circle = 2 * pi * radius;
-// // var area = pi * radius * radius;
-// // document.write("Radius of a circle: " + radius + "<br>" + "The circumference is: " + circumference_of_circle + "<br>" + "The area is: " + area);
-
-// // // Qno#13
-// // document.write("<h1> The Lifetime Supply Calculator </h1>");
-
-// // var snack = "chocolate chip";
-// // var age = 15;
-// // var maximumAge = 65;
-// // var estimate_amount = 3;
-// // var result = (maximumAge - age) * estimate_amount;
-// // document.write("Favourite snack: " + snack + "<br>" + "Current age: " + age + "<br>" + "Estimated maximum age: " + maximumAge + "<br>" + "Amount of snack per day: " + estimate_amount + "<br>" + " You will need " + result +
-// // snack + " to last you untill the ripe old age of " + maximumAge);
-
+// Qno#13
+// document.write("<h1> The Lifetime Supply Calculator </h1>");
+// var snack = prompt("Enter your favourite snack");
+// var age = prompt("Enter your current age");
+// var maximumAge = prompt("Enter your maximum age");
+// var amount = prompt("Amout of snack per day");
+// var total = (maximumAge - age) * amount;
+// document.write("Favourite Snack: " + snack + "<br>");
+// document.write("Current age: " + age + "<br>");
+// document.write("Estimated Maximum age: " + maximumAge + "<br>");
+// document.write("Amount of snack per day: " + amount + "<br>");
+// document.write("You will need " + total + " chocolate chip to last you until the ripe old age of " + maximumAge);
 
 // // chapter no 6...........
 // // Qno#1
