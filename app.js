@@ -492,13 +492,191 @@
 // qno#1
 var num = prompt("Enter your Ascii code value")
 var array = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","0","1","2","3","4","5","6","7","8","9"];
-var store;
+var store = "";
 for (var i = 0; i < array.length; i++){
     if (array[i] === array[0]){
         store = array[i].charCodeAt(array[0]);
     }
-    else if(array)
+    if(array[i] === array[1]){
+        store = array[i].charCodeAt(array[1]);
+    }
+    if(array[i] === array[2]){
+        store = array[i].charCodeAt(array[2]);
+    }
+    // else if(array[i] === array[3]){
+    //     store = array[i].charCodeAt(array[3]);
+    // }
+    // else if(array[i] === array[4]){
+    //     store = array[i].charCodeAt(array[4]);
+    // }
+    // else if(array[i] === array[5]){
+    //     store = array[i].charCodeAt(array[5]);
+    // }
+    // else if(array[i] === array[6]){
+    //     store = array[i].charCodeAt(array[6]);
+    // }
+    // else if(array[i] === array[7]){
+    //     store = array[i].charCodeAt(array[8]);
+    // }
+    // else if(array[i] === array[9]){
+    //     store = array[i].charCodeAt(array[9]);
+    // }
+    // else if(array[i] === array[10]){
+    //     store = array[i].charCodeAt(array[10]);
+    // }
+    // else if(array[i] === array[11]){
+    //     store = array[i].charCodeAt(array[11]);
+    // }
+    // else if(array[i] === array[12]){
+    //     store = array[i].charCodeAt(array[12]);
+    // }
+    // else if(array[i] === array[13]){
+    //     store = array[i].charCodeAt(array[13]);
+    // }
+    // else if(array[i] === array[14]){
+    //     store = array[i].charCodeAt(array[14]);
+    // }
+    // else if(array[i] === array[15]){
+    //     store = array[i].charCodeAt(array[15]);
+    // }
+    // else if(array[i] === array[16]){
+    //     store = array[i].charCodeAt(array[16]);
+    // }
+    // else if(array[i] === array[17]){
+    //     store = array[i].charCodeAt(array[17]);
+    // }
+    // else if(array[i] === array[18]){
+    //     store = array[i].charCodeAt(array[18]);
+    // }
+    // else if(array[i] === array[19]){
+    //     store = array[i].charCodeAt(array[19]);
+    // }
+    // else if(array[i] === array[20]){
+    //     store = array[i].charCodeAt(array[20]);
+    // }
+    // else if(array[i] === array[21]){
+    //     store = array[i].charCodeAt(array[21]);
+    // }
+    // else if(array[i] === array[22]){
+    //     store = array[i].charCodeAt(array[22]);
+    // }
+    // else if(array[i] === array[23]){
+    //     store = array[i].charCodeAt(array[23]);
+    // }
+    // else if(array[i] === array[24]){
+    //     store = array[i].charCodeAt(array[24]);
+    // }
+    // else if(array[i] === array[25]){
+    //     store = array[i].charCodeAt(array[25]);
+    // }
+    // else if(array[i] === array[26]){
+    //     store = array[i].charCodeAt(array[26]);
+    // }
+    // else if(array[i] === array[27]){
+    //     store = array[i].charCodeAt(array[27]);
+    // }
+    // else if(array[i] === array[28]){
+    //     store = array[i].charCodeAt(array[28]);
+    // }
+    // else if(array[i] === array[29]){
+    //     store = array[i].charCodeAt(array[29]);
+    // }
+    // else if(array[i] === array[30]){
+    //     store = array[i].charCodeAt(array[30]);
+    // }
+    // else if(array[i] === array[31]){
+    //     store = array[i].charCodeAt(array[31]);
+    // }
+    // else if(array[i] === array[32]){
+    //     store = array[i].charCodeAt(array[32]);
+    // }
+    // else if(array[i] === array[33]){
+    //     store = array[i].charCodeAt(array[33]);
+    // }
+    // else if(array[i] === array[34]){
+    //     store = array[i].charCodeAt(array[34]);
+    // }
+    // else if(array[i] === array[35]){
+    //     store = array[i].charCodeAt(array[35]);
+    // }
+    // else if(array[i] === array[36]){
+    //     store = array[i].charCodeAt(array[36]);
+    // }
+    // else if(array[i] === array[37]){
+    //     store = array[i].charCodeAt(array[37]);
+    // }
+    // else if(array[i] === array[38]){
+    //     store = array[i].charCodeAt(array[38]);
+    // }
+    // else if(array[i] === array[39]){
+    //     store = array[i].charCodeAt(array[39]);
+    // }
+    // else if(array[i] === array[40]){
+    //     store = array[i].charCodeAt(array[40]);
+    // }
+    // else if(array[i] === array[41]){
+    //     store = array[i].charCodeAt(array[41]);
+    // }
+    // else if(array[i] === array[42]){
+    //     store = array[i].charCodeAt(array[42]);
+    // }
+    // else if(array[i] === array[43]){
+    //     store = array[i].charCodeAt(array[43]);
+    // }
+    // else if(array[i] === array[44]){
+    //     store = array[i].charCodeAt(array[44]);
+    // }
+    // else if(array[i] === array[45]){
+    //     store = array[i].charCodeAt(array[45]);
+    // }
+    // else if(array[i] === array[46]){
+    //     store = array[i].charCodeAt(array[46]);
+    // }
+    // else if(array[i] === array[47]){
+    //     store = array[i].charCodeAt(array[47]);
+    // }
+    // else if(array[i] === array[48]){
+    //     store = array[i].charCodeAt(array[48]);
+    // }
+    // else if(array[i] === array[49]){
+    //     store = array[i].charCodeAt(array[49]);
+    // }
+    // else if(array[i] === array[50]){
+    //     store = array[i].charCodeAt(array[50]);
+    // }
+    // else if(array[i] === array[51]){
+    //     store = array[i].charCodeAt(array[51]);
+    // }
+    // else if(array[i] === array[52]){
+    //     store = array[i].charCodeAt(array[52]);
+    // }
+    // else if(array[i] === array[53]){
+    //     store = array[i].charCodeAt(array[53]);
+    // }
+    // else if(array[i] === array[54]){
+    //     store = array[i].charCodeAt(array[54]);
+    // }
+    // else if(array[i] === array[55]){
+    //     store = array[i].charCodeAt(array[55]);
+    // }
+    // else if(array[i] === array[56]){
+    //     store = array[i].charCodeAt(array[56]);
+    // }
+    // else if(array[i] === array[57]){
+    //     store = array[i].charCodeAt(array[57]);
+    // }
+    // else if(array[i] === array[58]){
+    //     store = array[i].charCodeAt(array[58]);
+    // }
+    // else if(array[i] === array[59]){
+    //     store = array[i].charCodeAt(array[59]);
+    // }
+    // else if(array[i] === array[60]){
+    //     store = array[i].charCodeAt(array[60]);
+    // }
 }
+// document.write("This " + num + " Ascii code is " + store);
+console.log(store);
 
 
 // qno#02
