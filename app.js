@@ -506,65 +506,75 @@
 // ]
 
 // qno#02
-// var num1 = 12;
-// var num2 = 13;
-// if (num1 === num2) {
-//     console.log("your number is equal")
-// }else{
-//     console.log("your number is not equal")
+// var user = prompt("Enter your ist integer");
+// var input = prompt("Enter your 2nd integer");
+// if (user === input){
+//     document.write(user + " is equal to " + input);
+// }
+// else if(user > input){
+//     document.write(user + " is greater than " + input);
+// }else {
+//     alert("Invalid input");
 // }
 
 // qno#03
 // var num = prompt("Enter your num");
 // if (num > 0) {
-//     console.log("Your number is positive")
+//     document.write(num + " is a positive number");
 // }
-// else if (num === "0") {
-//     console.log("your number is zero")
-// }else{
-//     console.log("your number is negative")
+// else if (num === 0) {
+//     document.write(num + " is also zero")
+// }
+// else if (num < 0){
+//     document.write(num + " is a negative number");
+// }else {
+//     alert("Invalid input");
 // }
 
 // qno#04
 // var chrac = prompt("Enter your vowels num");
-// if (chrac === "a" || chrac === "e" || chrac === "i" || chrac === "o" || chrac === "u") {
-//     console.log("True")
+// if (chrac === "a" || chrac === "A" || chrac === "e" || chrac === "E" || chrac === "i" || chrac === "I" || chrac === "o" || chrac === "O" || chrac === "u" || chrac === "U") {
+//     alert("True")
 // }else{
-//     console.log("False")
+//     alert("False")
 // }
 
 // qno#05
 // var password = prompt("Enter his/her password");
 // var user_password = prompt("Enter your password");
-// if (password === user_password) {
-//     console.log("Your password is correct")
-// }else{
-//     console.log("Your password is incorrect")
+// if(user_password === ""){
+//     alert("Please enter your password");
+// }
+// else if (password === user_password) {
+//     document.write(password + " and " + user_password + " are same");
+// }
+// else if(password !== user_password){
+//     document.write(password + " and " + user_password + " are not same");
 // }
 
 // qno#06
 // var greeting = prompt("Enter your hour");
 // if (greeting < 18){
-//     console.log("Good day");
+//     alert("Good day");
 // }else{
-//     console.log("Good evening");
+//     alert("Good evening");
 // }
 
 // qno#07
-// var time = prompt("Enter your time");
+// var time = prompt("Enter your time","12am");
 // if (time >= "oam" && time < "12am") {
-//     console.log("Good Morning")
+//     alert("Good Morning")
 // }
 // else if (time >= "12am" && time < "17pm") {
-//     console.log("Good Afternoon")
+//     alert("Good Afternoon")
 // }
 // else if (time >= "17pm" && time < "21pm") {
-//     console.log("Good Evening")
+//     alert("Good Evening")
 // }
 // else if (time >= "21pm" && time <= "24am") {
-//     console.log("Good Night")
+//      alert("Good Night")
 // }else{
-//     console.log("plz correct time mentioned")
+//     alert("plz correct time mentioned")
 // }
 
 
@@ -572,42 +582,63 @@
 
 // qno#01
 // var student_name = [];
-// console.log(studentNmae);
+// alert(studentNmae);
 
 // // qno#02
 // var studentNmae = [];
-// console.log(studentNmae)
+// alert(studentNmae)
 
 // qno#03
 // var str = ["Abdul qadeer"];
-// console.log(str);
+// alert(str);
 
 // qno#04
 // var num = [123];
-// console.log(num);
+// alert(num);
 
 // qno#05
 // var boolean = ["true" , "false"];
-// console.log(boolean);
+// alert(boolean);
 
 // qno#06
 // var mixed_array = ["Abdul qadeer" , 1234 , "true" , "false"];
-// console.log(mixed_array);
+// alert(mixed_array);
 
-// // qno#07
+// qno#07
 // var qualification = ["SSC" , "HSC" , "BSC" , "BS" , "BCOM" , "MS" , "M.phil." , "PHD"];
-// document.write("<h1> Qualification: </h1> <ol> <li> " + qualification[0] + "</li> <li> " + qualification[1] + "</li> <li> " + qualification[2] + "</li> <li> " + qualification[3] + "</li> <li> " + qualification[4] + "</li> <li> " + qualification[5] + "</li> <li> " + qualification[6] + "</li> <li> " + qualification[7] + "</li>");
+// document.write("<h1> Qualifications: </h1>");
+// document.write("<ol><li>" + qualification[0] + "</li><li>" + qualification[1] + "</li><li>" + qualification[2] + "</li><li>" + qualification[3] + "</li><li>" + qualification[4] + "</li><li>" + qualification[5] + "</li><li>" + qualification[6] + "</li><li>" + qualification[7]);
 
-// // qno#08
+// qno#08
 // var studentName = ["Abdul qadeer" , "Ghous ahmed" , "Ali"];
 // var score = [400 , 450 , 300];
 // var totalMarks = 500;
 // var percentage = score[0] * 100 / totalMarks;
 // var percentage1 = score[1] * 100 / totalMarks;
 // var percentage2 = score[2] * 100 / totalMarks;
-// document.write("<h4> Score of " + studentName[0] + " is " + score[0] + ". Percentage: " + percentage + " % </h4>" + "<br>" + "<h4> Score of " + studentName[1] + " is " + score[1] + ". Percentage: " + percentage1 + " % </h4>" + "<br>" + "<h4> Score of " + studentName[2] + " is " + score[2] + ". Percentage: " + percentage2 + " % <h4>");
+// document.write("<p> Score of " + studentName[0] + " is " + score[0] + ". Percentage: " + percentage + "</p>");
+// document.write("<p> Score of " + studentName[1] + " is " + score[1] + ". Percentage: " + percentage1 + "</p>");
+// document.write("<p> Score of " + studentName[2] + " is " + score[2] + ". Percentage: " + percentage2 + "</p>");
 
-// // // qno#09
+// qno#09
+var array = ["yellow"];
+alert("Array strating color is " + array)
+document.write("Array starting color is " + "<strong>" + array + "</strong>" + "<br>");
+var askUser = prompt("What color he/she want to add to the begining of array");
+array.unshift(askUser);
+document.write("After increment to the begining of array is " + "<strong>" + array + "</strong>" + "<br>");
+var askUser1 = prompt("What color he/she want to add to the end of array");
+array.push(askUser1);
+document.write("After increment to the end of array is " + "<strong>" + array + "</strong>" + "<br>");
+var askUser2 = prompt("Add two or more color to the begining of array");
+array.unshift(askUser2);
+document.write("After two values increment to the begining of array is " + "<strong>" + array + "</strong>" + "<br>");
+var askUser3 = prompt("Delete the ist color in array");
+array.shift(askUser3);
+document.write("Delete the ist color in the array " + "<strong>" + askUser3 + "</strong>" + "<br>");
+
+
+// qno#10
 // var score = [320 , 480, 120 , 250, 450];
 // document.write("<h3> Score of Students: " + score + "<br>" + "Ordered Score of Students: " + score[2] + " " + score[3] + " " + score[0] + " " + score[4] + " " + score[1] + " " + "</h3>");
 
