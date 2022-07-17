@@ -621,52 +621,76 @@
 // document.write("<p> Score of " + studentName[2] + " is " + score[2] + ". Percentage: " + percentage2 + "</p>");
 
 // qno#09
-var array = ["yellow"];
-alert("Array strating color is " + array)
-document.write("Array starting color is " + "<strong>" + array + "</strong>" + "<br>");
-var askUser = prompt("What color he/she want to add to the begining of array");
-array.unshift(askUser);
-document.write("After increment to the begining of array is " + "<strong>" + array + "</strong>" + "<br>");
-var askUser1 = prompt("What color he/she want to add to the end of array");
-array.push(askUser1);
-document.write("After increment to the end of array is " + "<strong>" + array + "</strong>" + "<br>");
-var askUser2 = prompt("Add two or more color to the begining of array");
-array.unshift(askUser2);
-document.write("After two values increment to the begining of array is " + "<strong>" + array + "</strong>" + "<br>");
-var askUser3 = prompt("Delete the ist color in array");
-array.shift(askUser3);
-document.write("Delete the ist color in the array " + "<strong>" + askUser3 + "</strong>" + "<br>");
-
+// var array = ["yellow"];
+// alert("Array strating color is " + array)
+// document.write("Array starting color is " + "<strong>" + array + "</strong>" + "<br>");
+// var askUser = prompt("What color he/she want to add to the begining of array");
+// array.unshift(askUser);
+// document.write("After increment to the begining of array is " + "<strong>" + array + "</strong>" + "<br>");
+// var askUser1 = prompt("What color he/she want to add to the end of array");
+// array.push(askUser1);
+// document.write("After increment to the end of array is " + "<strong>" + array + "</strong>" + "<br>");
+// var askUser2 = prompt("Add two or more color to the begining of array");
+// array.unshift(askUser2);
+// document.write("After two values increment to the begining of array is " + "<strong>" + array + "</strong>" + "<br>");
+// var askUser3 = prompt("Delete the ist color in array");
+// array.shift(askUser3);
+// document.write("Delete the ist color in the array " + "<strong>" + array + "</strong>" + "<br>");
+// var askUser4 = prompt("Delete the last value in array");
+// array.pop(askUser4);
+// document.write("Delete the last color in the array " + "<strong>" + array + "</strong>" + "<br>");
+// var index = prompt("Any index would you incerement a value index number");
+// var askUser5 = prompt("Which index he/she want to add a color & color name");
+// array.splice(index,0,askUser5);
+// document.write("After increment any index of and array value is " + "<strong>" + array + "</strong>" + "<br>");
+// var del = prompt("Which index he/she want to delete color index number");
+// var askUser6 = prompt("How many color deleted in the array");
+// array.splice(del,askUser6);
+// document.write("After deleted the array the final value of array is " + "<strong>" + array + "</strong>" + "<br>");
 
 // qno#10
 // var score = [320 , 480, 120 , 250, 450];
 // document.write("<h3> Score of Students: " + score + "<br>" + "Ordered Score of Students: " + score[2] + " " + score[3] + " " + score[0] + " " + score[4] + " " + score[1] + " " + "</h3>");
 
-// // qno#10
+// qno#11
 // var cities = ["Karachi" , "Lahore" , "Islamabad" , "Quetta" , "Peshawar"];
-// document.write("<h2> Cities list </h2>" + cities + "<h2> Selected cities </h2>" + cities[0] + " " + cities[4]);
+// var slice = cities.slice(2,4);
+// document.write("<h1> Cities list: </h1>");
+// document.write(cities);
+// document.write("<h1> Selected cities list: </h1>");
+// document.write(slice);
 
-// // // qno#11
+// qno#12
 // var array = ["This" , "is" , "my" , "cat"];
-// document.write("<h1> Array </h1>" + array + "<h1> String </h1>" + array[0] + " " + array[1] + " " + array[2] + " " + array[3] + " ")
+// var join = array.join(" ");
+// document.write("<h1> Array: </h1>");
+// document.write(array);
+// document.write("<h1> String: </h1>");
+// document.write(join);
 
-// // // // qno#12
+// qno#13
 // var devices = ["Keyboard" , "Mouse" , "Printer" , "Moniter"];
-// document.write("<h1> Devices </h1>" + devices + "<h1> out </h1>" + devices[0] + "<h1> out </h1>" + devices[1] + "<h1> out </h1>" + devices[2] + "<h1> out </h1>" + devices[3]);
+// document.write("<h1> Devices </h1>");
+// document.write(devices);
+// document.write("<p> Out: </p>");
+// document.write(devices[0])
+// document.write("<p> Out: </p>");
+// document.write(devices[1])
+// document.write("<p> Out: </p>");
+// document.write(devices[2])
+// document.write("<p> Out: </p>");
+// document.write(devices[3])
 
-// // // // qno#13
+// qno#14
 // var devices = ["Keyboard" , "Mouse" , "Printer" , "Moniter"];
 // document.write("<h1> Devices </h1>" + devices + "<h1> out </h1>" + devices[3] + "<h1> out </h1>" + devices[2] + "<h1> out </h1>" + devices[1] + "<h1> out </h1>" + devices[0]);
 
-// // // // qno#14
-// var phone = ["Samsung" , "Realme" , "Iphone" , "Motorola"];
-// // phone.pop();
-// // phone.push("Vivo");
-// // phone.shift();
-// // phone.unshift("Nokia");
-// // phone.splice(1, 0 , "link");
-// phone.slice(0 , 2);
-// console.log(phone);
+// qno#15
+// var mobiles = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// document.write("<h1> Mobile Manufactures: </h1>");
+// document.write(mobiles);
+// document.write("<h1> Drop down list </h1>");
+// document.write("<select><option>" + mobiles[0] + "</option> <option>" + mobiles[1] + "</option> <option>" + mobiles[2] + "</option> <option>" + mobiles[3] + "</option> <option>" + mobiles[4] + "</option> <option>" + mobiles[5] + "</option> </select>");
 
 
 // Arrays and Loop
