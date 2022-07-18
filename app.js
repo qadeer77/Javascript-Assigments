@@ -693,97 +693,106 @@
 // document.write("<select><option>" + mobiles[0] + "</option> <option>" + mobiles[1] + "</option> <option>" + mobiles[2] + "</option> <option>" + mobiles[3] + "</option> <option>" + mobiles[4] + "</option> <option>" + mobiles[5] + "</option> </select>");
 
 
-// Arrays and Loop
+// chapter no 17 to 20
 
 // qno#1
 // var names = [[],[],[]];
-// console.log(names);
+// document.write(names);
 
 // qno#2
-// var num = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
-// console.log(num);
+// var num = [[0,1,2,3] + "<br>",[1,0,1,2] + "<br>",[2,1,0,1]];
+// var join = num.join(" ");
+// document.write(join);
 
 // qno#3
 // for(var i = 1; i <= 10; i++){
-//     console.log(i);
+//     document.write(i + "<br>");
 // }
 
 // qno#4
 // var table = +prompt("Enter your table");
 // for(var i = 1; i <= 15; i++){
-//     console.log(table + "x" + i + "=" + table*i);
+//     document.write(table + "x" + i + "=" + table*i + "<br>");
 // }
 
 // qno#5
-// var fruits = [];
-// fruits.push("orange","strawbery");
-// fruits.unshift("apple","banana");
-// fruits.splice(2,0,"mango")
-// console.log(fruits);
+// var fruits = ["apple", "banana", "mango", "orange","strawberry"];
 // for(var i = 0; i < fruits.length; i++){
-//     console.log(fruits[i])
+//     document.write(fruits[i] + "<br>");
+// }
+// for (var i = 0; i < fruits.length; i++){
+//     document.write("Elements at index " + i + " is " + fruits[i] + "<br>");
 // }
 
 // qno#6
+// document.write("<h1> Counting </h1>");
 // for (var i = 1; i <= 15; i++){
-//     console.log(i);
+//     document.write(i + " ");
 // }
-// for(var j = 10; j >= 1; j--){
-//     console.log(j);
+// document.write("<h1> Reverse Counting </h1>");
+// for (var i = 15; i >= 1; i--){
+//     document.write(i + " ");
 // }
+// document.write("<h1> Even Number </h1>");
 // for (var i = 0; i <= 20; i++){
 //     if(i % 2 === 0){
-//         console.log(i);
+//         document.write(i + " ");
 //     }
 // }
-// for(var i = 1; i <= 19; i++){
+// document.write("<h1> odd Number </h1>");
+// for (var i = 0; i <= 20; i++){
 //     if(i % 2 !== 0){
-//         console.log(i);
+//         document.write(i + " ");
 //     }
 // }
-// var arr = ["2k","4k","6k","8k","10k","12k","14k","18k","20k"];
-// for(var i = 0; i < arr.length; i++){
-//     console.log(arr[i]);
+// document.write("<h1> Series </h1>");
+// for (var i = 2; i <= 20; i++){
+//     if(i % 2 === 0){
+//         document.write(i + "K" + " ");
+//     }
 // }
 
 // qno#7
 // var arry = ["cake", "apple pie", "cookie", "chips", "patties"];
-// var userInput = prompt("Enter your fruit name whould you want");
+// var userInput = prompt("Enter your fruit name whould you want").toLowerCase();
 // var match = "no";
 // for (var i = 0; i < arry.length; i++) {
 //     if (arry[i] == userInput) {
 //         match = "yes";
-//         console.log(userInput + " is available")
+//         document.write("<strong>" + userInput + "</strong>" + " is available at index " + arry.indexOf(userInput) + " in our bakery");
 //     }
 // }
 // if (match === "no"){
-//     console.log("We are soory " + userInput + " is not available");
+//     document.write("We are soory " + "<strong>" + userInput + "</strong>" + " is not available in our bakery");
 // }
 
-
 // qno#8
-// var num = [23,12,455,56,89,90];
-// var largest = num[0,4];
+// var num = [23,12,455,56,89,90,10009];
+// document.write("<h1> Array items: </h1>");
+// document.write(num + "<br>");
+// var largest = 0;
 // for (i = 0; i < num.length; i++){
 //     if (largest <= num[i]){
 //         largest = num[i];
 //     }
 // }
-// console.log(largest);
+// document.write("The largest number is " + largest);
 
 // qno#9
 // var num = [23,12,455,56,89,90];
-// var largest = num[0,4];
+// document.write("<h1> Array items: </h1>");
+// document.write(num + "<br>")
+// var smallest = num[0];
 // for (i = 0; i < num.length; i++){
-//     if (largest >= num[i]){
-//         largest = num[i];
+//     if (smallest >= num[i]){
+//         smallest = num[i];
 //     }
 // }
-// console.log(largest);
+// document.write("The smallest number is " + smallest);
 
 // qno#10
 // for (var i = 1; i <= 20; i++){
-//     console.log(5*i);
+//     document.write(5*i + " ");
 // }
 
 
