@@ -806,11 +806,13 @@
 
 // qno#02
 // var phone = prompt("Enter your favourite mobile phone");
-// document.write("My favourite Mobile Phone is: " + phone + "<br>" + "Length of string is: " + phone.length);
+// document.write("My favorite Mobile phone is: " + phone + "<br>");
+// document.write("Length of String: " + phone.length);
 
 // qno#03
 // var country = "Pakistan";
-// document.write("String: " + country + "<br>" + "Index of 'n': " + country.indexOf("n"));
+// document.write("String: " + country + "<br>");
+// document.write("Index of 'n': " + country.indexOf("n"));
 
 // qno#04
 // var str = "Hello World";
@@ -834,7 +836,8 @@
 // qno#08
 // var message = "Ali and Sami are best friends. They play cricket and football together.";
 // var replace = message.replace(/and/g,"&");
-// document.write("Message: " + message + "<br>" + "After replacement: " + replace);
+// document.write("Message: " + message + "<br>");
+// document.write("After replacement: " + replace);
 
 // qno#09
 // var str = "472";
@@ -844,17 +847,14 @@
 // qno#10
 // var userInput = prompt("Enter your value");
 // var upper = userInput.toUpperCase();
-// document.write("User Input: " + userInput + "<br>" + "Upper case: " + upper);
+// document.write("User Input: " + userInput + "<br>");
+// document.write("Upper case: " + upper);
 
 // qno#11
 // var userInput = prompt("Enter your value");
 // document.write("User input: " + userInput + "<br>");
-// var upper = userInput[0];
-// var lower = upper.toUpperCase();
-// document.write("Title case: " + lower)
-// for(var i = 1; i < userInput.length; i++){
-//     document.write(userInput[i]);
-// }
+// var slice = userInput.slice(0,1).toUpperCase() + userInput.slice(1, userInput.length);
+// document.write("Title case: " + slice);
 
 // qno#12
 // var dot = "36.76";
@@ -862,20 +862,19 @@
 // document.write("Number: " + dot + "<br>" + "Result: " + replace);
 
 // qno#13
-// var userInput = prompt("Enter a special Ascii code number like, ! , . @");
-// if(userInput === "!"){
-//     document.write("Ascii code of " + userInput + " is  33");
+// var userPass = prompt("Enter a name : ")
+// var flag = false
+// var splitPass = userPass.split('');
+// for (i = 0; i < splitPass.length; i++) {
+//     if ((splitPass[i] === "!") || (splitPass[i] === ",") || (splitPass[i] === ".") || (splitPass[i] === "@")) {
+
+//         flag = true;
+//         alert("Please enter a valid username");
+//     }
 // }
-// else if(userInput === ","){
-//     document.write("Ascii code of " + userInput + " is  44");
-// }
-// else if(userInput === "."){
-//     document.write("Ascii code of " + userInput + " is  46");
-// }
-// else if(userInput === "@"){
-//     document.write("Ascii code of " + userInput + " is  64");
-// }else{
-//     alert("Please enter a valid username");
+// if (flag === false) {
+
+//     alert("Valid password")
 // }
 
 // qno#14
@@ -893,7 +892,41 @@
 // }
 
 // qno#15
-
+// var pass = prompt("Enter your password");
+// var a = ["A","B","C","D","E","F","G","H","J","I","L","K","N","M","P","O","R","Q","T","S","V","U","X","W","Z","Y",];
+// var b = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",];
+// var c = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+// var isNumber = false;
+// var isAlpha = false;
+// var isInvalid = false;
+// if (c.indexOf(pass[0]) !== -1) {
+//     alert("Number is not allowed on index 0")
+// }
+// else if (pass.length < 6) {
+//     alert("Password should be at leasat 6")
+// }
+// else {
+//     for (i = 0; i < pass.length; i++) {
+//       if (a.indexOf(pass[i]) !== -1) {
+//             isAlpha = true;
+//         }
+//         else if (b.indexOf(pass[i]) !== -1) {
+//            isAlpha = true;
+//         }
+//         else if (c.indexOf(pass[i]) !== -1) {
+//             isNumber = true;
+//         }
+//         else {
+//             isInvalid = true;
+//         }
+//     }
+//     if (isNumber && isAlpha && !isInvalid) {
+//         alert("Correct !")
+//     }
+//     else {
+//         alert("password not meet the requirement ")
+//     }
+// }
 
 // qno#16
 // var university = "University of karachi";
@@ -917,7 +950,6 @@
 //     }
 // }
 // document.write("Text: " + str + "<br>" + " There are " + count + " occurrence(s) of the word 'the'");
-
 
 
 // chapter-26 to 30
