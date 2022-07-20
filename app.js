@@ -959,23 +959,29 @@
 // var round = Math.round(number);
 // var floor = Math.floor(number);
 // var ceil = Math.ceil(number);
-// document.write("number: " + number + "<br>" + "round of value: " + round + "<br>" + "floor value: " + floor + "<br>" + "ceil value: " + ceil);
+// document.write("number: " + number + "<br>");
+// document.write("round of value: " + round + "<br>");
+// document.write("floor value: " + floor + "<br>");
+// document.write("ceil value: " + ceil);
 
 // qno#02
 // var number = -2.673;
 // var round = Math.round(number);
 // var floor = Math.floor(number);
 // var ceil = Math.ceil(number);
-// document.write("number: " + number + "<br>" + "round of value: " + round + "<br>" + "floor value: " + floor + "<br>" + "ceil value: " + ceil);
+// document.write("number: " + number + "<br>");
+// document.write("round of value: " + round + "<br>");
+// document.write("floor value: " + floor + "<br>");
+// document.write("ceil value: " + ceil);
 
 // qno#03
 // var num = -4;
-// var abs = Math.abs(num)
+// var abs = Math.abs(num);
 // document.write("The absolute value of " + num + " is " + abs);
 
 // qno#04
 // var random = Math.ceil(Math.random() * 6);
-// document.write("random dice value: " + random);
+// document.write("Random dice value: " + random);
 
 // qno#05
 // var head = Math.ceil(Math.random() * 2);
@@ -991,10 +997,13 @@
 // document.write("random number between 1 and 100: " + random);
 
 // qno#07
-// var userInput = prompt("Enter your weight");
-// var rando = Math.random() * userInput;
-// var fixed = rando.toFixed(1);
-// document.write("The weight of user is " + fixed + " Kilograms");
+// var userInput = prompt("Enter your weight in kilogram");
+//     if (userInput.indexOf('.')) {
+//         document.write("The Weight of user is : " + parseFloat(userInput) + " Kilogram");
+//     }
+//     else {
+//         document.write("The Weight of user is : " + parseInt(userInput) + " Kilogram");
+//     }
 
 // qno#08
 // var rando = Math.ceil(Math.random() * 10);
@@ -1078,6 +1087,17 @@
 //     document.write("Nothing");
 // }
 
+// OR
+// var currentDay = new Date().getDay();
+// var day = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
+// if (day[currentDay] === "Sun" || day[currentDay] === "Sun") {
+//     document.write("Its fun day")
+// }
+// else {
+//     document.write("Its NOT fun day");
+// }
+// document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
+
 // qno#05
 // var now = new Date();
 // var date = now.getDate();
@@ -1119,7 +1139,8 @@
 // var millisec = pass.getTime();
 // var diff = mili - millisec;
 // var floor = Math.round(diff / (1000));
-// document.write("On reference date: " + now + "<br>" + floor + " seconds had passed since begining of 2022");
+// document.write("On reference date: " + now + "<br>");
+// document.write(floor + " seconds had passed since begining of 2022")
 
 // qno#11
 // var now = new Date();
