@@ -1186,19 +1186,19 @@
 // chapter no 35 to 38
 
 // qno#01
-// function foo(){
+// function foo1(){
 //     var now = new Date();
 //     document.write(now);
 // }
-// foo()
+// foo1()
 
 // qno#02
-// function foo() {
+// function foo2() {
 //     var user = prompt("Enter your ist name");
 //     var input = prompt("Enter your last name");
 //     document.write(user + " " + input);
 // }
-// foo();
+// foo2();
 
 // qno#03
 // function foo() {
@@ -1209,27 +1209,58 @@
 // document.write(foo());
 
 // qno#04
-// function foo(a,b) {
-//     return a + b;
+// function foo(num1, num2, opt){
+//     if(opt === "+"){
+//         return num1 + num2;
+//     }
+//     else if(opt === "-"){
+//         return num1 - num2;
+//     }
+//     else if(opt === "*"){
+//         return num1 * num2;
+//     }
+//     else if(opt === "/"){
+//         return num1 / num2;
+//     }
+//     else if(opt === "%"){
+//         return num1 % num2;
+//     }else{
+//         return "Wrong opertor";
+//     }
 // }
-// document.write(foo(5,7));
+// alert(foo(5, 4, "+"));
 
 // qno#05
-// function squrae(a,b,c){
-//     return a + b - c;
+// function square(num1){
+//     return num1 * num1;
 // }
-// document.write(squrae(5,4,3));
+// alert(square(8));
 
 // qno#06
-// function foo() {
-//     var num = 5;
-//     var num1 = num*4*3*2*1;
-//     document.write(num1);
+// function factorial() {
+//     // Factorial of n = n! = n × (n – 1) × (n – 2) × … × 1
+//     var fact = 1;
+//     var user = prompt("Enter a number to find the factorical that number : ");
+//     document.write("Factorial of " + user + " ! <br>");
+//     if(user < 0){
+//         document.write("The factorial of the negative number doesnot perform");
+//     }
+//     else if (user === 0){
+//         document.write("Factorial number " + user + " is 1");
+//     }
+//     else if(user >= 1){
+//         for(var i = 1; i <= user; i++){
+//             fact *= i;
+//             document.write(i + " ")
+//         }
+//         document.write(" = " + fact);
+//     }
 // }
-// foo();
+// factorial();
 
 // qno#07
 // function foo() {
+//     document.write("<h1> Counting </h1>");
 //     var user = prompt("Enter your starting number");
 //     var input = prompt("Enter your ending value");
 //     for (var i = user; i <= input; i++){
