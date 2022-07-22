@@ -1286,13 +1286,15 @@
 // foo()
 
 // qno#09
-// function greet() {
-//     var userInput = prompt("Length value");
-//     var now = prompt("Width value");
-//     var data = userInput * now;
-//     document.write("legth value: " + userInput + "<br>" + "Width value: " + now + "<br>" + "Area of square value: " + data + "<br> <br>");
+// function foo(width, height){
+//     var width = +prompt("Enter a width");
+//     var height = +prompt("Enter a height");
+//     A = width * height;
+//     document.write("(Arguments as variable) Area of rectangle is: " + A + "<br>");
+//     var areaAsValue = 5 * 6;
+//     document.write("(Arguments as value) Area of rectangle is: " + areaAsValue);
 // }
-// greet();
+// foo();
 
 // qno#10
 // function foo(){
@@ -1311,40 +1313,52 @@
 
 // qno#11
 // function foo(){
-    // var str = "the quick brown fox";
-    // var str1 = str.slice(0,1).toUpperCase();
-    // var str2 = str.slice(1,3);
-    // var str3 = str.slice(4,5).toUpperCase();
-    // var str4 = str.slice(5,9);
-    // var str5 = str.slice(10,11).toUpperCase();
-    // var str6 = str.slice(11,15);
-    // var str7 = str.slice(16,17).toUpperCase();
-    // var str8 = str.slice(17,19);
-    // document.write("Example String: " + str + "<br>");
-    // document.write("Expected Output: " + str1 + str2 + " " + str3 + str4 + " " + str5 + str6 + " " + str7 + str8);
+//     var str = "the quick brown fox";
+//     var str1 = str.slice(0,1).toUpperCase();
+//     var str2 = str.slice(1,3);
+//     var str3 = str.slice(4,5).toUpperCase();
+//     var str4 = str.slice(5,9);
+//     var str5 = str.slice(10,11).toUpperCase();
+//     var str6 = str.slice(11,15);
+//     var str7 = str.slice(16,17).toUpperCase();
+//     var str8 = str.slice(17,19);
+//     document.write("Example String: " + str + "<br>");
+//     document.write("Expected Output: " + str1 + str2 + " " + str3 + str4 + " " + str5 + str6 + " " + str7 + str8);
 // }
 // foo();
 
 // qno#12
-// function foo(){
-//     var str = "Web Development Tutorial";
-//     var str1 = str.slice(4,15);
-//     document.write("Example String: " + str + "<br>");
-//     document.write("Expected Output: " + str1);
-// }
-// foo();
+// function longestWord(){
+//     var str = prompt("Enter your string : ")
+//     // var str = "Web development in the";
+//     var splitArrayValue = str.split(' ');
+//     // console.log(splitArrayValue)
+//     var storeWord = "";
+//     for (var i = 0; i < splitArrayValue.length; i++) {
+//         if (splitArrayValue[i].length > storeWord.length) {
+//             storeWord = splitArrayValue[i];
+//         }
+//     }
+//         // return storeWord;
+//         document.write("Actual String is : " + str + "<br>")
+//         document.write("Longest word in String is : " + storeWord)
+        
+//     }
+// longestWord()
 
 // qno#13
-// function letterOccurence (strings,character){
+// function letterOccurence(strings, character) {
+//     var strings = prompt("Enter a string :").toLowerCase();
+//     var character = prompt("Enter a character: ")
 //     var count = 0;
 //     for (var i = 0; i < strings.length; i++) {
-//         if (strings.charAt(i) == character){
+//         if (strings.charAt(i) == character)
 //             count++;
 //     }
+//     document.write("Text : " + strings + "<br>")
+//     document.write("There are " + count + " occurrence(s) of the word " + character);
 // }
-//   return count;
-// }
-// letterOccurence ("Abdul Qadeer","a")
+// letterOccurence("Abdul qadeer", "@");
 
 // qno#14
 // function foo(){
