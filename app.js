@@ -1370,3 +1370,12 @@
 //     document.write("Area of circle is: " + area);
 // }
 // foo();
+
+
+// chapter no 38 to 42
+
+// qno#01
+function foo(a,b){
+    return 5 + 4 - x;
+}
+console.log(foo(a));
