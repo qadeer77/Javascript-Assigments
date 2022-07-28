@@ -1375,8 +1375,45 @@
 // chapter no 38 to 42
 
 // qno#01
-var x;
-function foo(a,b) {
-    return a
+
+// qno#02
+// function foo(){
+//     var year = prompt("Enter your leap year");
+//     if (year % 4 === 0){
+//         alert(year + " is a leap year");
+//     }else {
+//         alert(year + " is not a leap year");
+//     }
+// }
+// foo();
+
+// qno#03
+// function foo(){
+//     var a = +prompt("Enter your ist value, in area of triangle");
+//     var b = +prompt("Enter your 2nd value, in area of triangle");
+//     var c = +prompt("Enter your 3rd value, in area of triangle");
+//     var side = (a + b + c) / 2;
+//     var calculateAreaOfTraingle = (side)*(side - a)*(side - b)*(side - c);
+//     document.write("The area of triangle is " + calculateAreaOfTraingle);
+// }
+// foo();
+
+// qno#04
+
+// qno#05
+// function foo() {
+//     var str = "Web Developments in the saylani welafre it academy";
+//     var index = str.indexOf("Developments");
+//     alert(index);
+// }
+// foo();
+
+// qno#06
+function foo(){
+    var user = prompt("Enter your sentence");
+    var split = user.split("");
+    if (split === "a" || split === "e" || split === "i" || split === "o" || split === "u" || split === "A" || split === "E" || split === "I" || split === "O" || split === "O"){
+        
+    }
 }
-console.log(foo(5, 4));
+foo()
