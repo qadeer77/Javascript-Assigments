@@ -1409,11 +1409,26 @@
 // foo();
 
 // qno#06
-function foo(){
-    var user = prompt("Enter your sentence");
-    var split = user.split("");
-    if (split === "a" || split === "e" || split === "i" || split === "o" || split === "u" || split === "A" || split === "E" || split === "I" || split === "O" || split === "O"){
-        
-    }
-}
-foo()
+// function foo(){
+//     var input = prompt("Enter your string");
+//     var replace = input.replace(/[aeiouAEIOU]/gi , " ");
+//     alert("Original string: " + input + "\n" + "The string remove a vowels: " + replace);
+// }
+// foo()
+
+// qno#07
+// function foo(){
+//     var input = prompt("Enter your sentence");
+//     var result = "";
+//     for(var i = 0; i < input.length; i++){
+//         if(input[i] === "a" || input[i] === "e" || input[i] === "i" || input[i] === "o" || input[i] === "u" || input[i] === "A" || input[i] === "E" || input[i] === "I" ||input[i] === "O" || input[i] === "U"){
+//             result += input[i] + ",";
+//         }
+//     }
+//     document.write("This sensetence is: " + input + "<br>");
+//     document.write("This senstence vowels are: " + result);
+// }
+// foo()
+
+
+// qno#08
