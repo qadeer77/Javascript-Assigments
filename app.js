@@ -1375,7 +1375,8 @@
 // chapter no 38 to 42
 
 // qno#01
-function foo(a,b){
-    return 5 + 4 - x;
+var x;
+function foo(a,b) {
+    return a
 }
-console.log(foo(a));
+console.log(foo(5, 4));
