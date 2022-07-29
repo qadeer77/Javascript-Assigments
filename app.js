@@ -1376,6 +1376,7 @@
 
 // qno#01
 
+
 // qno#02
 // function foo(){
 //     var year = prompt("Enter your leap year");
@@ -1459,3 +1460,20 @@
 // foo();
 
 // qno#09
+// function foo() {
+//     var overTime = +prompt("Enter a working hour of employee in overtime");
+//     var perHourSalry = 12.00;
+//     if (overTime >= 40){
+//         var income = overTime * perHourSalry;
+//         alert("You overtime pay salary is: " + income);
+//     }else {
+//         alert("You have to work for more than 40 hour to get over time pay");
+//     }
+// }
+// foo();
+
+// qno#10
+function foo(){
+    var cash = +prompt("Enter a amount to withdraw");
+    
+}
