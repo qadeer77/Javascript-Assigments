@@ -1375,7 +1375,12 @@
 // chapter no 38 to 42
 
 // qno#01
-
+// var a = +prompt("Enter a ist value");
+// var b = +prompt("Enter a 2nd value");
+// function foo(x){
+//     return a + b - x;
+// }
+// console.log(foo(a));
 
 // qno#02
 // function foo(){
@@ -1474,6 +1479,8 @@
 
 // qno#10
 function foo(){
-    var cash = +prompt("Enter a amount to withdraw");
-    
+    var cash = prompt("Enter a amount to withdraw");
+    for (var i = 0; i < cash.length; i++){
+        if (cash[i] > 0 && cash[i] < )
+    }    
 }
