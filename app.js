@@ -1478,9 +1478,31 @@
 // foo();
 
 // qno#10
-function foo(){
-    var cash = prompt("Enter a amount to withdraw");
-    for (var i = 0; i < cash.length; i++){
-        if (cash[i] > 0 && cash[i] < )
-    }    
+
+
+
+
+
+
+
+
+function foo(a,b) {
+    var c = a * 3;
+    var d = b * 2;
+    var e = c + d;
+    var sum = 0;
+    for (var i = e; i >= 1; i--){
+        if (i % 2 !== 0){
+            sum += i;
+            var slit = sum.toString();
+            var arr = slit.split(" ");
+            for(var j = 0; j < arr.length; j++){
+                if (arr[j] === "49"){
+                    console.log(Number(arr[j]));
+                }
+            }
+        }
+    }
 }
+var func = foo(3,2);
+console.log(func);
