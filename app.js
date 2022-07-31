@@ -1375,15 +1375,6 @@
 // chapter no 38 to 42
 
 // qno#01
-// function foo() {
-//     var a = 3;
-//     var b = 4;
-//     var raised = a ** b;
-//     console.log(raised)
-// }
-// foo();
-
-    //    OR
 // var a = +prompt("Enter a ist value");
 // var b = +prompt("Enter a 2nd value");
 // function foo(x){
@@ -1414,46 +1405,8 @@
 // foo();
 
 // qno#04
-//  var x = +prompt("Enter the obtained marks in first subject") 
-//   var y = +prompt("Enter the obtained marks in second subject") 
-//   var z = +prompt("Enter the obtained marks in third subject") 
-  
-//   function main() { 
-//       var j = avg(x,y,z); 
-//       var h = perc(x,y,z); 
-//       document.write( j + " is the average") 
-//       document.write( h + " is the percentage") 
-  
-//   } 
-//   function avg(a,b,c) { 
-//       var f = (a+b+c) / 3 ; 
-//       return f; 
-//   } 
-//   function perc(a,b,c) { 
-//       var g = (a+b+c) / 300 * 100 ; 
-//       return g ; 
-//   } 
-//   main()
 
 // qno#05
-// var flag=false;
-// function indexOff(word,char){
-//     for(var i=0;i<word.length;i++){
-//         if(word[i]===char){
-//                 l(i)
-//                 flag=true;
-//         }
-//     }
-//     if(flag===false){
-//         l(-1)
-//      }
-// }
-// indexOff("Abdul Qadeer","A")
-// function l(a){
-//     console.log(a);
-// }
-
-//   oR
 // function foo() {
 //     var str = "Web Developments in the saylani welafre it academy";
 //     var index = str.indexOf("Developments");
@@ -1525,57 +1478,31 @@
 // foo();
 
 // qno#10
-// var user = +prompt("Enter Amount");
-// var result = 0;
-// var hun = 0;
-// var fiv = 0;
-// var ten = 0;
-// var one = 0;
-
-// for (i = 0; i < 5; i++) {
-
-//     if (user >= 100) {
-//         hun = Math.floor(user / 100);
-//         user -= hun * 100;
-//     }
-//     else if (user >= 50) {
-//         fiv = Math.floor(user / 50);
-//         user -= fiv * 50;
-//     }
-//     else if (user >= 10) {
-//         ten = Math.floor(user / 10);
-//         user -= ten * 10 ;
-//     }
-//     else if (user >= 1) {
-//         one = Math.floor(user / 1);
-//         user -= one * 1 ;
-//     }
-// }
-// alert(hun + " hundred rupee", fiv + " fivety rupee", ten + " ten rupee", one + " one rupee",);
 
 
 
 
 
 
-// Extra
-// function foo(a,b) {
-//     var c = a * 3;
-//     var d = b * 2;
-//     var e = c + d;
-//     var sum = 0;
-//     for (var i = e; i >= 1; i--){
-//         if (i % 2 !== 0){
-//             sum += i;
-//             var slit = sum.toString();
-//             var arr = slit.split(" ");
-//             for(var j = 0; j < arr.length; j++){
-//                 if (arr[j] === "49"){
-//                     console.log(Number(arr[j]));
-//                 }
-//             }
-//         }
-//     }
-// }
-// var func = foo(3,2);
-// console.log(func);
+
+
+function foo(a,b) {
+    var c = a * 3;
+    var d = b * 2;
+    var e = c + d;
+    var sum = 0;
+    for (var i = e; i >= 1; i--){
+        if (i % 2 !== 0){
+            sum += i;
+            var slit = sum.toString();
+            var arr = slit.split(" ");
+            for(var j = 0; j < arr.length; j++){
+                if (arr[j] === "49"){
+                    console.log(Number(arr[j]));
+                }
+            }
+        }
+    }
+}
+var func = foo(3,2);
+console.log(func);
